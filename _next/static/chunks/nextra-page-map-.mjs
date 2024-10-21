@@ -1,4 +1,5 @@
 import meta from "../../../pages/_meta.ts";
+import lifeIsPossible_meta from "../../../pages/lifeIsPossible/_meta.ts";
 export const pageMap = [{
   data: meta
 }, {
@@ -11,6 +12,8 @@ export const pageMap = [{
   name: "lifeIsPossible",
   route: "/lifeIsPossible",
   children: [{
+    data: lifeIsPossible_meta
+  }, {
     name: "Lecture",
     route: "/lifeIsPossible/Lecture",
     children: [{
