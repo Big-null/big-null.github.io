@@ -1,23 +1,18 @@
-# Nextra Docs Template 
+# Big-null website
+ 
+Welcome to Big-null! 
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+## 📚 References
+All the public workshops, documents and code will be archive in here for better reading usage.
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+## 🏦 Repo
+Please checkout here for all public data.  
+https://github.com/Big-null  
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
+## 🚗 License
+We are welcome for using all materials for `education`, `profit` or `non profit` works. But please make sure to state the source from here:
 
-## Quick Start
-
-Click the button to clone this repository and deploy it on Vercel:
-
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
-
-## Local Development
-
-First, run `pnpm i` to install the dependencies.
-
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
-
-## License
-
-This project is licensed under the MIT License.
+```md filename="Sources" copy
+Copyright © 2024 Big Null. All rights reserved.
+https://github.com/Big-null
+```
