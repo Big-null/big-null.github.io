@@ -16,17 +16,13 @@ style: |
 
 PWA Apps workshop intro
 
----
+## 🎮 Level
+- (Easy to Medium)
+- Secondary School 
 
-# Menu
-
-- Aims
-- Perquisites
-- Outputs
-- Details
-- Schedule
-
----
+## 🎯 Target audients
+1. Basic computer user
+2. Want to understand more about coding and website development.
 
 # Aims
 
