@@ -1,16 +1,3 @@
----
-marp: true
-class: invert
-footer: 'Life is Possible - Apps workshop'
-paginate: true
-
-style: |
-  .columns {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1rem;
-  }
----
 
 # Life is Possible - 生命教育 手機程式工作坊
 
@@ -18,7 +5,7 @@ Lecture 01 - Introduce to Programming
 
 ---
 
-# Menu
+## Menu
 
 - What is coding / programmers do?
 - Why do we need to code?
@@ -28,11 +15,11 @@ Lecture 01 - Introduce to Programming
 
 ---
 
-# What do coding / programmers do?
+## What do coding / programmers do?
 
 ---
 
-# Q. What do coding / programmers do?
+## Q. What do coding / programmers do?
 
 - Sitting in front of the computer 8 hours a day?
 - Talking to the computers?
@@ -43,37 +30,37 @@ Lecture 01 - Introduce to Programming
 
 ---
 
-# A. What do coding / programmers do?
+## A. What do coding / programmers do?
 
 ![w:900](https://i.kym-cdn.com/entries/icons/original/000/028/596/dsmGaKWMeHXe9QuJtq_ys30PNfTGnMsRuHuo_MUzGCg.jpg)
 
 ---
 
-# Coding is...
+## Coding is...
 
 <div class="columns">
 
 <div>
 
-## 🤔 Thinking
+### 🤔 Thinking
 
 </div>
 
 <div>
 
-## 💻 Coding
+### 💻 Coding
 
 </div>
 
 <div>
 
-## 🎤 Communicating
+### 🎤 Communicating
 
 </div>
 
 <div>
 
-## 📚 Learning
+### 📚 Learning
 
 </div>
 
@@ -81,11 +68,11 @@ Lecture 01 - Introduce to Programming
 
 ---
 
-# Why we need to code?
+## Why we need to code?
 
 ---
 
-# A. Why we need to learn coding?
+## A. Why we need to learn coding?
 
 * Interested in CS / EE related fields?
 * For jobs?
@@ -97,7 +84,7 @@ Lecture 01 - Introduce to Programming
 
 ---
 
-# coding == "programmers" ? true : false ;
+## coding == "programmers" ? true : false ;
 
 ### Big hypothesis: Programmers have to code
 ### Small hypothesis: Some job roles needs to code, not only programmers
@@ -105,13 +92,13 @@ Q.E.D?
 
 ---
 
-## Various type of Coding related languages
+### Various type of Coding related languages
 
 <div class="columns">
 
 <div>
 
-### 💻 Software Engineers
+#### 💻 Software Engineers
 * Java / C# / Rust / Kotlin
 * JavaScript / Typescript
 * PHP / HTML / CSS
@@ -120,7 +107,7 @@ Q.E.D?
 
 <div>
 
-### 🔌 DevOps related
+#### 🔌 DevOps related
 * JSON / YMAL
 * Python
 * JavaScript / Typescript
@@ -129,7 +116,7 @@ Q.E.D?
 
 <div>
 
-### 📑 Data / AI
+#### 📑 Data / AI
 * Python
 * R
 * Excel
@@ -138,7 +125,7 @@ Q.E.D?
 
 <div>
 
-### 🛡 Security
+#### 🛡 Security
 * Linux operations 
 * PHP / JS / Python ...
 * More audit tools ...
@@ -149,13 +136,13 @@ Q.E.D?
 
 ---
 
-## Computer related jobs
+### Computer related jobs
 
 <div class="columns">
 
 <div>
 
-### 💻 Software Engineers
+#### 💻 Software Engineers
 * Mobile Apps developers <- Here
 * Frontend developers <- Here
 * Backend developers
@@ -164,7 +151,7 @@ Q.E.D?
 
 <div>
 
-### 🔌 DevOps 
+#### 🔌 DevOps 
 * DevOps Engineer
 * Cloud Engineer
 * Architecture Engineer
@@ -173,7 +160,7 @@ Q.E.D?
 
 <div>
 
-### 📑 Data / AI
+#### 📑 Data / AI
 * Deep learning Engineer
 * Machine learning Engineer
 * Data researchers
@@ -182,7 +169,7 @@ Q.E.D?
 
 <div>
 
-### 🛡 Security
+#### 🛡 Security
 * Information Security Engineer 
 * White hacker
 * Risk Manager
@@ -193,14 +180,14 @@ Q.E.D?
 
 ---
 
-# Frontend / Mobile Apps developers?
+## Frontend / Mobile Apps developers?
 https://roadmap.sh/frontend/
 https://roadmap.sh/react/
 and more...
 
 ---
 
-# What we will learn these days?
+## What we will learn these days?
 
 * Fundamental `HTML`
 * Fundamental `CSS`
@@ -208,12 +195,12 @@ and more...
 * Use of `Github` and `Github Desktop`
 * `Vercel` or `Netlify` to deploy
 
-# Outcome
+## Outcome
 - A Web apps (PWA) that deploy to cloud services / applications in Google Play.
 
 ---
 
-# Fundamental `HTML`
+## Fundamental `HTML`
 
 > HTML is the standard markup language for Web pages
 
@@ -221,7 +208,7 @@ To learn how to write a website structure with it.
 
 ---
 
-# Fundamental `CSS`
+## Fundamental `CSS`
 
 > CSS is the language we use to style an HTML document.
 
@@ -230,7 +217,7 @@ To learn how to beauty a website with it.
 
 ---
 
-# Fundamental `Javascript`
+## Fundamental `Javascript`
 
 > JavaScript is the programming language of the Web.
 
@@ -238,7 +225,7 @@ To learn how to programming in HTML documents.
 
 ---
 
-# Use of `Github`
+## Use of `Github`
 
 > GitHub, Inc is an Internet hosting service for software development and version control using Git.
 
@@ -246,7 +233,7 @@ To learn how to use github for deploy projects.
 
 ---
 
-# `Vercel` to deploy
+## `Vercel` to deploy
 
 > Vercel is the platform for frontend developers, providing the speed and reliability innovators need to create at the moment of inspiration.
 
@@ -254,7 +241,7 @@ To learn how to deploy the website in the internet.
 
 ---
 
-# Why not to learn writing an real apps?
+## Why not to learn writing an real apps?
 
 * You can learn to write a real app with React Native javascript in the future.   
 (https://reactnative.dev/)
@@ -264,18 +251,14 @@ To learn how to deploy the website in the internet.
 
 ---
 
-# Break
-
----
-
-# Install and setup
+## Install and setup
 
 - Installing Visual Studio Code (VSC)
 - Installing Nodejs
 
 ---
 
-# Why Visual Studio Code (VSC)?
+## Why Visual Studio Code (VSC)?
 
 * Free
 * Huge community
@@ -285,13 +268,13 @@ To learn how to deploy the website in the internet.
 
 ---
 
-# VSC download
+## VSC download
 
 https://code.visualstudio.com/
 
 ---
 
-# How to use VSC?
+## How to use VSC?
 
 * Open a File
 * Enter the File with `code .` in terminal
@@ -305,22 +288,22 @@ https://code.visualstudio.com/
 
 ---
 
-## `pwd` / `cd` / `ls` cheatsheet
+### `pwd` / `cd` / `ls` cheatsheet
 
-### `pwd` (print work directory)
+#### `pwd` (print work directory)
 1. `pwd` will print where you are at the terminal.
 
-### `cd` (change directory)
+#### `cd` (change directory)
 1. `cd <filename>` will goto that folder e.g. `cd public`.
 2. `cd ..` will back to the previous folder path.
 
-### `ls` (list directory)
+#### `ls` (list directory)
 1. `ls` will list all the file / folder in the terminal.
 1. `ls -a` / `ls -la` will list all details in the terminal.
 
 ---
 
-# What is Node.js?
+## What is Node.js?
 
 * A javascript base runtime for PC
 * For running javascript on PC
@@ -328,12 +311,13 @@ https://code.visualstudio.com/
 
 ---
 
-# Node.js download
+## Node.js download
 
 https://nodejs.org/en/
 
 ---
-# Check if Node.js installed
+
+## Check if Node.js installed
 
 1. Open your (`Windows`: Powershell / CMD ) (`MacOS`: Terminal)
 2. Type `node --version` then press enter.
@@ -346,22 +330,14 @@ v18.13.0
 
 ---
 
-# Break
-
----
-
-# Lab time
-
----
-
-# Lab 1: Create a project
+## Lab 1: Create a project
 By using the vsc, create a folder call `<your_name>-apps-lab1`, then create a `play.js` file inside the folder. Also, create a folder call `public`, then creating two file named `index.html` and `hello.html`
 
 Notes 1: `<your_name>` means you name, if I am peter, name the folder `peter-apps-lab1`
 
 ---
 
-# Lab 2: HTML
+## Lab 2: HTML
   Using VSC in `index.html`, copy the following text to the file
 
 ```html
@@ -382,7 +358,7 @@ Then rename the `peter` to your name. Then open the `index.html`.
 
 ---
 
-# Lab 3: Hello world!?
+## Lab 3: Hello world!?
 In `play.js`, copy the following text to the file.
 
 ```js
@@ -397,7 +373,3 @@ PS D:\apps-workshops\lecture-01\lab> node play.js\
 Hello I am peter
 ```
 Then rename the `peter` to your name, then try the `node play.js` again.
-
----
-
-# End - Enjoy
