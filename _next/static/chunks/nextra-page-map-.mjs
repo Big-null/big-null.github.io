@@ -23,11 +23,6 @@ export const pageMap = [{
         name: "lecture-01",
         route: "/lifeIsPossible/Lecture/lecture-01/lecture-01",
         frontMatter: {
-          "marp": true,
-          "class": "invert",
-          "footer": "Life is Possible - Apps workshop",
-          "paginate": true,
-          "style": ".columns {\n  display: grid;\n  grid-template-columns: repeat(2, minmax(0, 1fr));\n  gap: 1rem;\n}\n",
           "sidebarTitle": "Lecture 01"
         }
       }]
