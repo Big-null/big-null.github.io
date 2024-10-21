@@ -1,7 +1,40 @@
 import meta from "../../../pages/_meta.ts";
+import genAI_meta from "../../../pages/genAI/_meta.ts";
 import lifeIsPossible_meta from "../../../pages/lifeIsPossible/_meta.ts";
 export const pageMap = [{
   data: meta
+}, {
+  name: "genAI",
+  route: "/genAI",
+  children: [{
+    data: genAI_meta
+  }, {
+    name: "index",
+    route: "/genAI",
+    frontMatter: {
+      "sidebarTitle": "Index"
+    }
+  }, {
+    name: "lecture-01",
+    route: "/genAI/lecture-01",
+    children: [{
+      name: "lecture-01",
+      route: "/genAI/lecture-01/lecture-01",
+      frontMatter: {
+        "sidebarTitle": "Lecture 01"
+      }
+    }]
+  }, {
+    name: "lecture-02",
+    route: "/genAI/lecture-02",
+    children: [{
+      name: "lecture-02",
+      route: "/genAI/lecture-02/lecture-02",
+      frontMatter: {
+        "sidebarTitle": "Lecture 02"
+      }
+    }]
+  }]
 }, {
   name: "index",
   route: "/",
