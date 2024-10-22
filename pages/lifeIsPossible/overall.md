@@ -16,15 +16,16 @@ style: |
 
 PWA Apps workshop intro
 
+https://github.com/Big-null/Life-is-Possible-Apps-workshop
+
 ## 🎮 Level
-- (Easy to Medium)
-- Secondary School 
+- Easy to Medium - Secondary School level
 
 ## 🎯 Target audients
 1. Basic computer user
 2. Want to understand more about coding and website development.
 
-# Aims
+## Aims
 
 1. Enlighten students interested in STEM-related fields.
 2. Able to code a simple website / apps / PWA.
