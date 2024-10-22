@@ -18,32 +18,32 @@ style: |
 
 ---
 
-# 目錄
+## 目錄
 
 - 深入探索程式設計
 - 介紹使用 JavaScript 實現真正的程式設計
 
 ---
 
-# 使用邏輯積木編程嗎？
+## 使用邏輯積木編程嗎？
 ![w:850](https://miro.medium.com/max/1400/0*356zWDYXZyGbmQxa.)
 
 ---
 
-# 真正的程式設計師不這麼做...
+## 真正的程式設計師不這麼做...
 
 ![w:950](https://i.insider.com/5a823c0ed0307297018b4646?width=1200&format=jpeg)
 
 ---
 
-# 真正的程式設計師僅用文字/單字編寫程式碼
+## 真正的程式設計師僅用文字/單字編寫程式碼
 
 ![w:850](https://us.knews.media/wp-content/uploads/2022/12/featured-image-code-scrolling-down-a-screen-and-bart-simpson-coding-meme-scaled.jpg)
 
 
 ---
 
-# 程式語言
+## 程式語言
 
 ---
 
@@ -51,7 +51,7 @@ style: |
 
 ---
 
-# 為什麼我們學習 JavaScript？
+## 為什麼我們學習 JavaScript？
 
 - 對於初學者來說相對容易學習
 - 只需學習一次，可在任何地方使用 (Web / 桌面 / Linux)
@@ -61,7 +61,7 @@ https://www.stackscale.com/blog/most-popular-programming-languages/
 
 
 ---
-# Javascript 可以運行於
+## Javascript 可以運行於
 
 - 🖥 網頁瀏覽器 (使用 V8 引擎)
 - 📱 Android (使用 V8 引擎和瀏覽器)
@@ -73,7 +73,7 @@ https://www.stackscale.com/blog/most-popular-programming-languages/
 幾乎你日常生活中所看到的任何東西都可以運行 JavaScript。
 
 ---
-# 撰寫歡迎程式
+## 撰寫歡迎程式
 
 `app.js`
 ```js
@@ -89,11 +89,11 @@ console.log("This is " + str);
 
 ---
 
-# `console.log()`
+## `console.log()`
 
 這是 JavaScript 中用來列印訊息的基本函數
 
-### 用法
+###### 用法
 ```js
 console.log("Hello world"); // "Hello world"
 console.log("Hello " + "Peter"); // "Hello Peter"
@@ -105,7 +105,7 @@ console.log(100 + 45); // 145
 
 ---
 
-# 今天的 JavaScript 課程
+## 今天的 JavaScript 課程
 
 - 資料類型 Data Types
 - 算術運算子 Arithmetic Operators
@@ -117,7 +117,7 @@ console.log(100 + 45); // 145
 
 ---
 
-# JavaScript Comments 註解
+## JavaScript Comments 註解
 > 用於解釋代碼，並使其更可讀
 > 註解中的代碼將不會運行/執行/編譯
 
@@ -133,7 +133,7 @@ console.log("yo hi")
 
 ---
 
-# JavaScript Comments 註解
+## JavaScript Comments 註解
 
 多行註解以 `/*` 開頭，以 `*/` 結尾.
 
@@ -151,7 +151,7 @@ console.log("mate")
 
 ---
 
-# 常見的資料型別
+## 常見的資料型別
 
 - `string` 字串型別，例如 `"Hello"`, `"Good day"`, `"I go to school by bus"`
 - `number` 數值型別，例如 `12`, `-3`, `32.476`, `0x012`, `11010010`
@@ -159,7 +159,7 @@ console.log("mate")
 
 ---
 
-# `string`
+## `string`
 
 顯示常見的字串 / 字元
 
@@ -169,7 +169,7 @@ console.log("mate")
 
 ---
 
-# `number`
+## `number`
 
 代表數學運算中的數值資料型別 ( `+`, `-`, `*`, `/`, `%` )
 
@@ -181,7 +181,7 @@ console.log("mate")
 
 ---
 
-# `number` 基本算術運算子
+## `number` 基本算術運算子
 
 - `+` : Addition 加法 (e.g. `3 + 5 = 8`)
 - `-` : Subtraction 減法 (e.g. `8 - 2 = 6`)
@@ -190,20 +190,20 @@ console.log("mate")
 
 ---
 
-# 更多 `number` 算術運算符
+## 更多 `number` 算術運算符
 
-## 通常在一般情況下使用的
+#### 通常在一般情況下使用的
 - `**` : 指數運算 Exponentiation ( `2^3` => `2**3` )
 - `%` : 取模運算 / 求餘數 Modulus / Remainder ( `5 % 2 == 1`, `10 % 2 == 0` )
 
-## 通常在循環中使用的
+#### 通常在循環中使用的
 (將在下一課中介紹更多)
 - `++` : 自增 (`i++`)
 - `--` : 自減 (`i--`)
 
 ---
 
-# `boolean` 布爾值
+## `boolean` 布爾值
 
 它是一種用於確定條件是否發生的數據類型。在此數據類型中，僅出現 `true` 和 `false`。
 
@@ -212,7 +212,7 @@ console.log("mate")
 
 ---
 
-# `boolean` 示例
+## `boolean` 示例
 
 ```js
 13 == 100 // Is 13 equal to 100 ? false
@@ -225,7 +225,7 @@ console.log("mate")
 
 ---
 
-# `boolean` `and &&`, `or ||`, `not !`
+## `boolean` `and &&`, `or ||`, `not !`
 在所有的程式語言中，幾個符號代表邏輯運算。
 
 - `and` : 使用 `&&`
@@ -239,7 +239,7 @@ console.log("mate")
 
 ---
 
-# `boolean` 與 `and &&`, `or ||`, `not !`
+## `boolean` 與 `and &&`, `or ||`, `not !`
 
 - `and` : 表示**兩個條件**都成立時，會回傳 true。
 - `or` : 表示**其中一個條件**成立時，會回傳 true。
@@ -247,7 +247,7 @@ console.log("mate")
 
 ---
 
-# 為什麼要使用 `and &&`, `or ||`, `not !`
+## 為什麼要使用 `and &&`, `or ||`, `not !`
 其實這是一個現實生活中的簡單問題或邏輯句子。
 
 如果我們要用表示一個條件：
@@ -266,7 +266,7 @@ if(today.day == "monday" && today.weather != "raining"){
 
 ---
 
-# 為什麼要使用 `and`, `or`, `not`
+## 為什麼要使用 `and`, `or`, `not`
 更複雜的條件可能會像這樣：
 
 ```md
@@ -304,14 +304,14 @@ else if(diceNumber % 2 == 1){
 
 ---
 
-# 在 JS 中的進階資料型別
+## 在 JS 中的進階資料型別
 （本課程中不會涵蓋，但在未來很重要）
 
-#### 常用的
+######## 常用的
 - `物件（Object）` and `陣列（Array）`
 - `Null` and `未定義（Undefined）`
 
-#### 進階的
+######## 進階的
 - `錯誤（Error）` 
 - `日期（Date）`
 - `映射（Map）` and `集合（Set）`
@@ -319,11 +319,11 @@ else if(diceNumber % 2 == 1){
 
 ---
 
-# 休息一下
+## 休息一下
 
 ---
 
-# Assignment Operators 指派運算子
+## Assignment Operators 指派運算子
 
 <table>
 <tbody>
@@ -381,7 +381,7 @@ else if(diceNumber % 2 == 1){
 
 ---
 
-# Define a variables 定義變量
+## Define a variables 定義變量
 
 ```js
 var names = "reemo";
@@ -397,7 +397,7 @@ const isMale = true;
 
 ---
 
-# Define a variables 定義變量
+## Define a variables 定義變量
 
 ```js
 // <declare_words> <declare_variables_name> = <data_values>
@@ -411,7 +411,7 @@ const age = 10;
 
 ---
 
-# `let`
+## `let`
 1. 使用`let`定義的變量可以被重新定義
 2. 具有區塊作用域 (block-scope)
 
@@ -425,7 +425,7 @@ console.log(names) // tom
 
 ---
 
-# `const`
+## `const`
 1. 通常情況下，使用`const`定義的變量不能被重新定義。
 2. 具有區塊作用域 (block-scope)
 
@@ -441,7 +441,7 @@ console.log(names) // error: Uncaught TypeError: Assignment to constant variable
 
 ---
 
-# 條件語句 
+## 條件語句 
 
 - Compare 比較運算子: `==`, `===`, `!=`, `!==`
 - For Maths 數學運算子: `>`, `<`, `>=`, `<=`
@@ -449,7 +449,7 @@ console.log(names) // error: Uncaught TypeError: Assignment to constant variable
 
 ---
 
-# 比較運算子 `==`, `===`, `!=`, `!==`
+## 比較運算子 `==`, `===`, `!=`, `!==`
 
 - `==`: 弱等於
 - `===`: 強等於
@@ -458,7 +458,7 @@ console.log(names) // error: Uncaught TypeError: Assignment to constant variable
 
 ---
 
-# `Strong compare 強等` 和 `Weak compare 弱等` ?
+## `Strong compare 強等` 和 `Weak compare 弱等` ?
 
 - `Strong` 意味著不僅值相同，而且數據類型也需要匹配。
 
@@ -481,7 +481,7 @@ console.log( num === stringNum ) // Strong compare: false
 
 ---
 
-# 數學比較運算子 : `>`, `<`, `>=`, `<=`
+## 數學比較運算子 : `>`, `<`, `>=`, `<=`
 
 - `>`: 大於
 - `>=`: 大於或等於s
@@ -497,7 +497,7 @@ console.log( num === stringNum ) // Strong compare: false
 
 ---
 
-# 邏輯比較運算子: `if` , `else if`, `else`
+## 邏輯比較運算子: `if` , `else if`, `else`
 
 內部程式碼將在條件滿足時運行
 
@@ -507,7 +507,7 @@ console.log( num === stringNum ) // Strong compare: false
 
 ---
 
-# `if`
+## `if`
 
 `demo.js`
 ```js
@@ -548,7 +548,7 @@ console.log(nums) // 5
 
 ---
 
-# `if` 與 `else`
+## `if` 與 `else`
 
 `demo.js`
 ```js
@@ -563,7 +563,7 @@ else{
 
 ---
 
-# `if` 與 `else`
+## `if` 與 `else`
 
 `ifElseDemo.js`
 ```js
@@ -582,7 +582,7 @@ console.log(nums) // 43
 
 ---
 
-# `if` 與 `else`
+## `if` 與 `else`
 
 `ifElseTwoDemo.js`
 ```js
@@ -600,7 +600,7 @@ console.log(nums) // -5
 
 ---
 
-# 進階 `if` 與 `else` 使用
+## 進階 `if` 與 `else` 使用
 以下代碼邏輯上是不一樣
 ```js
 if(true){
@@ -621,7 +621,7 @@ else{
 
 ---
 
-# `if` 與 `else` 與 `else if`
+## `if` 與 `else` 與 `else if`
 
 `ifElseDemo.js`
 ```js
@@ -642,7 +642,7 @@ else{
 
 ---
 
-# `if` 與 `else` 與 `else if`
+## `if` 與 `else` 與 `else if`
 
 `ifElseDemo.js`
 ```js
@@ -663,7 +663,7 @@ else{
 
 ---
 
-# `if` 與 `else` 與 `else if`
+## `if` 與 `else` 與 `else if`
 
 `ifElseDemo.js`
 ```js
@@ -684,11 +684,11 @@ else{
 
 ---
 
-# Functions 函数
+## Functions 函数
 
 ---
 
-# Functions 函数
+## Functions 函数
 函數是一個為了完成特定任務而設計的代碼塊。
 
 `basic-function.js`
@@ -703,7 +703,7 @@ myFunctionName() // calling the function
 
 ---
 
-# Functions with params 帶參數的函數
+## Functions with params 帶參數的函數
 函數可以傳入參數，以便重複使用。
 
 `basic-function-params.js`
@@ -719,7 +719,7 @@ greetings("tom") // Hello tom
 
 ---
 
-# Functions with more params 帶多個參數的函數
+## Functions with more params 帶多個參數的函數
 函數也可以傳入很多參數。
 
 `basic-function-params.js`
@@ -736,7 +736,7 @@ greetings("tom", 33) // Hello tom / Are you the age of 33 ?
 
 ---
 
-# Functions return 函數回傳
+## Functions return 函數回傳
 
 函數可以回傳 `return` 一個值，讓其他變數使用。
 
@@ -756,8 +756,8 @@ console.log(returnSentences("tom")); // "Hello tom"
 
 ---
 
-# Advance Functions: Arrow Function (Bonus)
-## 進階函數：箭頭函數
+## Advance Functions: Arrow Function (Bonus)
+#### 進階函數：箭頭函數
 
 在 JavaScript 中，函數也可以像這樣編寫：
 
@@ -767,11 +767,11 @@ let myFunction = (a, b) => a * b;
 
 ---
 
-# 休息一下
+## 休息一下
 
 ---
 
-# Lab 01 - 定義變數和類型
+## Lab 01 - 定義變數和類型
 
 Peter 想要定義一些變數，但他不知道該怎麼做。你可以幫他嗎？
 
@@ -782,7 +782,7 @@ Peter 想要定義一些變數，但他不知道該怎麼做。你可以幫他�
 
 ---
 
-# Lab 01 - 定義變數和類型
+## Lab 01 - 定義變數和類型
 
 `lab02-template.js`
 
@@ -793,7 +793,7 @@ const someStuffAlso = ...
 
 ---
 
-# Lab 02 - 檢查學生階段
+## Lab 02 - 檢查學生階段
 
 編寫一個程序，根據以下要求檢查學生的教育階段：
 
@@ -805,7 +805,7 @@ const someStuffAlso = ...
 
 ---
 
-# Lab 02 - 檢查學生階段
+## Lab 02 - 檢查學生階段
 
 `lab02-template.js`
 ```js
@@ -823,7 +823,7 @@ calculateAgeStatus(21) // 大學
 ```
 
 ---
-# 總結
+## 總結
 我們學習了以下內容：
 
 - 執行 `app.js`
@@ -838,13 +838,13 @@ calculateAgeStatus(21) // 大學
 
 ---
 
-# 更多練習
+## 更多練習
 https://code.tecky.io/
 https://js.checkio.org/
 
 ---
 
-# 更多學習資料
+## 更多學習資料
 在本課程中，我們沒有涉及以下內容：
 
 - Object, Array, for loop (物件、陣列、for 迴圈)
@@ -855,4 +855,4 @@ https://js.checkio.org/
 
 ---
 
-# 完結
+## 完結

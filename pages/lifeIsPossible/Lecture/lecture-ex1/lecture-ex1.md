@@ -49,8 +49,6 @@ let numberFour = 54
 ```
 
 
-
-## Why Array
 1. Instead of create a series of variables, 
 we would store those data in a `single boxes` (array)
 
@@ -60,8 +58,6 @@ let numberArray = [1, 4, 67, 54, 32, 75];
 ```
 
 
-
-## Why Array
 2. We can easily sum up those data with array method.
 
 ```js
@@ -85,8 +81,6 @@ for(let val of numberArray){
 ```
 
 
-
-## Why Array
 3. We can adjust the array in code instead of declare a new variable.
 
 ```js
@@ -105,7 +99,7 @@ console.log(numberArray) // 1, 4, 67
 
 
 
-## Array Rules One
+### Array Rules One
 
 - In general, array can be store various item with same type
 ```js
@@ -120,7 +114,7 @@ const mixedArray = [1, "tom", true, 3249]
 ```
 
 
-## Array Rules Two
+### Array Rules Two
 To access the array, we can do like this:
 
 ```js
@@ -135,7 +129,7 @@ Important: In general programming languages, the `index` of the array start with
 
 
 
-## Array Rules Three
+### Array Rules Three
 To change the array content, we can do like this:
 
 ```js
@@ -150,7 +144,7 @@ console.log(stringArray) // ["gordon", "may", "peter", "joe", "reemo"]
 
 
 
-## Array Rules Four
+### Array Rules Four
 Array can store another array too. (2D array)
 ```js              
 const arr = [
@@ -168,10 +162,7 @@ console.log(arr[2][0]) // 32
 ## Common Array method
 
 
-
-## Common Array method
-
-#### `length`
+### `length`
 
 Get the array length (Count how many items are in the array)
 
@@ -183,9 +174,8 @@ console.log(stringArray.length) // 5
 ```
 
 
-## Common Array method
 
-#### `push` 
+### `push` 
 `push()` add the new item to the front of the array
 
 
@@ -198,9 +188,7 @@ console.log(stringArray) // ["tom", "may", "peter", "alex", "reemo", "dennis"]
 ```
 
 
-## Common Array method
-
-#### `pop`
+### `pop`
 `pop()` remove one front in the array
 
 ```js
@@ -210,15 +198,6 @@ const stringArray = ["tom", "may", "peter", "alex", "reemo"]
 stringArray.pop()
 console.log(stringArray) // ["tom", "may", "peter", "alex"]
 ```
-
-
-
-## Break
-
-
-
-## Common Array method with Loops
-
 
 
 ## What is Loops?
@@ -235,9 +214,6 @@ let sum = numberArray[0] + numberArray[1] + numberArray[2] + numberArray[3] + nu
 
 That's a bad pratice if the array have a lot of items. Let say 1000. Would you code those item 1000 times?
 
-
-
-## What is Loops?
 
 Instead of repeting, we would use loops to go through the array like this:
 
@@ -256,7 +232,7 @@ The for loop will `loops through` the numberArray, and get each items in the arr
 
 
 
-#### These two code are the same
+### These two code are the same
 
 <div class="columns">
 
@@ -294,9 +270,6 @@ console.log(sum) // 87
 </div>
 
 
-
-
-
 ## Different Kinds of Loops
 JavaScript supports different kinds of loops:
 
@@ -310,7 +283,7 @@ JavaScript supports different kinds of loops:
 
 
 
-## For Loop
+### For Loop
 
 The `for` statement creates a loop with 3 optional expressions:
 
@@ -326,7 +299,7 @@ for (expression 1; expression 2; expression 3) {
 
 
 
-## For loop with index
+### For loop with index
 
 ```js
 for (let i = 0; i < 5; i++) {
@@ -340,7 +313,7 @@ for (let i = 0; i < 5; i++) {
 
 
 
-## For loop with index
+### For loop with index
 
 ```js
 for (let i = 0; i < 5; i++) {
@@ -356,7 +329,7 @@ for (let i = 0; i < 5; i++) {
 
 
 
-## For loop with index (array)
+### For loop with index (array)
 
 ```js
 let arr = [1,2,3,4,5,6,7]
@@ -372,7 +345,7 @@ for (let i = 0; i < arr.length; i++) {
 
 
 
-## For loop with index (array)
+### For loop with index (array)
 
 ```js
 let arr = [1, 2, 66, 4, 5, 77]
@@ -391,7 +364,7 @@ for (let i = 0; i < arr.length; i++) {
 
 
 
-## Javascript `for/of`
+### Javascript `for/of`
 In javascript, instead of using `index`, we can use `for of loop` to loop through elements directly.
 
 ```js
@@ -409,7 +382,7 @@ for (let val of arr) {
 
 
 
-## Javascript `for/of`
+### Javascript `for/of`
 `of loop` can loop the array without the `index`
 
 ```js
@@ -426,7 +399,7 @@ for (let v of nameArr) {
 
 
 
-## Javascript `for/in`
+### Javascript `for/in`
 `in loop` will have you to loop the array with the `index`, but do not need to init the index variables
 
 ```js
@@ -443,7 +416,7 @@ for (let ind in nameArr) {
 
 
 
-## Javascript `for/in`
+### Javascript `for/in`
 `in loop` can get the array element with `arr[i]` also, but we do **NOT recommended** to use `for in` to loop the array in general situations.
 
 ```js
@@ -461,7 +434,7 @@ The `in loop` are powerful in looping the `object` that we will cover in pages l
 
 
 
-## Javascript `while`
+### Javascript `while`
 `while` loop is a loop logics which mainly use on looping thats **We do not know how many times will the looping occur**. Means in most of the time, we will use `for/of` / `for/in` or `index for` to loop a array.
 
 ```js
@@ -475,7 +448,7 @@ while(true){
 ```
 
 
-## `while` loop a array
+### `while` loop a array
 ```js
 let nameArr = ["hello", "yolo", "tom"]
 
@@ -488,7 +461,7 @@ while(i < nameArr.length){
 
 
 
-## Javascript `do while`
+### Javascript `do while`
 It is same as the `while` logics, but it will runs the inside code ONCE no matter the while loops is true or false at first.
 
 ```js
@@ -503,7 +476,7 @@ do{
 
 
 
-## Javascript `do while`
+### Javascript `do while`
 
 <div class="columns">
 
@@ -543,7 +516,7 @@ Hello will print once even the `while(false)`
 
 
 
-## `continue` and `break`
+### `continue` and `break`
 
 In both `for` and `while` loop, if we want to skip a certain conditions or break the loop, we may use `continue` and `break` to achieve the situations.
 
@@ -563,7 +536,7 @@ for(let i = 0; i < 6; i ++){
 
 
 
-## `continue`
+### `continue`
 when a `continue` occur, it will skip the current loop block.
 
 ```js
@@ -582,7 +555,7 @@ for(let i = 0; i < 6; i ++){
 
 
 
-## `break`
+### `break`
 when a `break` occur, it will skip WHOLE loop block.
 
 ```js
@@ -600,21 +573,12 @@ for(let i = 0; i < 6; i ++){
 ```
 
 
-
-
-## Break
-
-
-
 ## Object
 
 > The Object type represents one of JavaScript's data types. It is used to store various keyed collections and more complex entities. 
 
 AKA we want to pack some variables together as a objects.
 
-
-
-## Object
 
 Assume we have a person data
 
@@ -636,10 +600,6 @@ let people = {
 }
 ```
 
-
-
-## Object
-
 We can access the object like this:
 
 ```js
@@ -658,9 +618,6 @@ console.log(people.hobby) // ["coding", "running"]
 console.log(people["name"]) // tom
 console.log(people["hobby"]) // ["coding", "running"]
 ```
-
-
-## Object
 
 We tend to use object for a series of variables for `functions` reuse.
 
@@ -726,7 +683,7 @@ console.log(objectArray[1].name) // may
 
 
 
-## Object array loop
+### Object array loop
 
 Loop the whole object
 ```js
@@ -747,7 +704,7 @@ for(let val of objectArray){
 
 
 
-## Object array loop
+### Object array loop
 
 Loop the whole object, print the name only
 ```js
@@ -768,7 +725,7 @@ for(let val of objectArray){
 
 
 
-## Object array loop
+### Object array loop
 
 Loop the whole object with index
 ```js
@@ -789,7 +746,7 @@ for(let i = 0; i < objectArray.lengthl i ++){
 
 
 
-## Object loop
+### Object loop
 As we mentions before, we cna loop the object too by `for/in`
 
 ```js
@@ -812,11 +769,6 @@ for(let key in peopleOne){
 ```
 
 
-
-## Break
-
-
-
 ## Scope
 > Scope determines the accessibility (visibility) of variables.
 
@@ -828,7 +780,7 @@ JavaScript has 3 types of scope:
 
 
 
-## Block / Local Scope
+### Block / Local Scope
 
 ```js
 {
@@ -852,7 +804,7 @@ console.log(myNumber); // 999
 
 
 
-## Block / Local Scope
+### Block / Local Scope
 
 `loopSamples.js`
 ```js
@@ -865,7 +817,7 @@ console.log(i) // Uncaught ReferenceError: i is not defined
 
 
 
-## Global scope
+### Global scope
 
 If the variable is in global, all the blobk, function and section can be access the variable.
 ```js
@@ -890,7 +842,7 @@ console.log(myNum); // 123
 Last, we will learn how to add interactions in web
 
 
-## Basic Dom control in web js
+### Basic Dom control in web js
 
 Let's assume we have the html like this
 
@@ -913,7 +865,7 @@ Let's assume we have the html like this
 
 
 
-## Get the DOM elements
+### Get the DOM elements
 
 In general, we have these function to get the regarding elements. Both function are build in for web.
 ```js
@@ -934,7 +886,7 @@ Those function can help us to get the regarding elements.
 
 
 
-## Add interactions to boxes
+### Add interactions to boxes
 In general, we can add event to the DOM elements:
 
 ```js
@@ -1027,15 +979,9 @@ You can control the messgae of the elements by `innerHTML` too.
 </body>
 ```
 
-
-
 ## Lab 01 - Play around those stuff
 Try to play around with 
 - `array`
 - `loop`
 - `document.getElementById()`
 - `addEventListener`
-
-
-
-## End

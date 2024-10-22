@@ -18,7 +18,7 @@ Lecture 06 - Adv topic - Github, Deployment and Planning
 
 ---
 
-# Menu
+## Menu
 
 - Github and Github Desktop
 - Deployment with vercel
@@ -27,18 +27,18 @@ Lecture 06 - Adv topic - Github, Deployment and Planning
 
 ---
 
-# Github and Github Desktop
+## Github and Github Desktop
 https://github.com/
 
 ---
 
-# What is Github?
+## What is Github?
 
 > GitHub is an online software development platform. It's used for storing, tracking, and collaborating on software projects.
 
 ---
 
-# What is Github?
+## What is Github?
 
 - Majority of programmers and IT firm use it
 - For collaborating and code version control
@@ -47,27 +47,27 @@ https://github.com/
 
 ---
 
-# Lab 01 - Create Github account
+## Lab 01 - Create Github account
 https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home
 
 Following the link to register a account first. If you do not have a email, register a gmail now.
 
 ---
 
-# What's inside Github page?
+## What's inside Github page?
 
 ![w:1250](./images/github_home.png)
 
 ---
 
-# Repositories
+## Repositories
 
 - Each project is named `repository` (AKA `repo`)
 - We will create a `repository` and upload all project codes in the `repository`
 
 ---
 
-# Lab 02 - Create a new Private repository
+## Lab 02 - Create a new Private repository
 
 Follow the steps to create a repository:
 
@@ -75,48 +75,48 @@ You should start on the Github home pages and click the `top right plus +` icons
 
 ---
 
-# Lab 02 - Step 1
+## Lab 02 - Step 1
 Name the repo to `<your_name>-project-website` and select `Private`
 
 ![w:950](./images/create1.png)
 
 ---
 
-# Lab 02 - Step 2
+## Lab 02 - Step 2
 Scroll down and un-tick the `Add a README file`, then click `Create a repository`
 
 ![w:950](./images/create2.png)
 
 ---
 
-# Lab 02 - Step 3
+## Lab 02 - Step 3
 If you are done, you will see the regarding screen.
 
 ![w:950](./images/create3.png)
 
 ---
 
-# Lab 03 - Download the Github desktop
+## Lab 03 - Download the Github desktop
 
 https://desktop.github.com/
 
 ---
 
-# Lab 03 - Step 1
+## Lab 03 - Step 1
 You will see the regarding screen, click the `Download for XXXX` button to process the download.
 
 ![w:850](./images/dw1.png)
 
 ---
 
-# Lab 03 - Step 2
+## Lab 03 - Step 2
 After downloaded, click `Sign in with Github.com` to login
 
 ![w:750](./images/dw2.png)
 
 ---
 
-# Lab 03 - Step 3
+## Lab 03 - Step 3
 Upon a success login, you may see the regarding screen (without the content)
 
 ![w:700](./images/dw3.png)
@@ -124,7 +124,7 @@ Upon a success login, you may see the regarding screen (without the content)
 
 ---
 
-# What / Why is Github desktop?
+## What / Why is Github desktop?
 
 - 💻 A GUI base git software 
 - 📡 Easy git management GUI to learn 
@@ -135,7 +135,7 @@ After you have fimilar with `Github desktop`, you may learn `git` in the future 
 
 ---
 
-# Lab 04 - Use Github desktop to push the code.
+## Lab 04 - Use Github desktop to push the code.
 
 If you not not done the `lab 01-03` yet, please finish those lab first.
 
@@ -146,42 +146,42 @@ We will process the following things in this lab:
 
 ---
 
-# Lab 04 - Step 1
+## Lab 04 - Step 1
 Back to this screen, you may see a button of `Set up in Desktop` in middle left of the screen. Click it.
 
 ![w:850](./images/create3.png)
 
 ---
 
-# Lab 04 - Step 2
+## Lab 04 - Step 2
 This screen will pop up after you clicked. Select a proper `Local path` and click the Blue `Clone` button.
 
 ![w:650](./images/git1.png)
 
 ---
 
-# Lab 04 - Step 3
+## Lab 04 - Step 3
 You will be in this screen after the `Clone`. Check if the top left section is your repo name or not.
 
 ![w:650](./images/git2.png)
 
 ---
 
-# Lab 04 - Step 4
+## Lab 04 - Step 4
 `Right click` the top left section and select `Open in Visual Stuidio Code` to enter the vsc.
 
 ![w:650](./images/git3.png)
 
 ---
 
-# Lab 04 - Step 5
+## Lab 04 - Step 5
 Create a `index.html` and `apple.html` in the folder first.
 
 ![w:870](./images/git4.png)
 
 ---
 
-# Lab 04 - Step 6
+## Lab 04 - Step 6
 Copy these content to `index.html`
 
 ```html
@@ -202,7 +202,7 @@ Copy these content to `index.html`
 
 ---
 
-# Lab 04 - Step 7
+## Lab 04 - Step 7
 Copy these content to `apple.html`
 
 ```html
@@ -223,7 +223,7 @@ Copy these content to `apple.html`
 
 ---
 
-# Lab 04 - Step 8
+## Lab 04 - Step 8
 
 <div class="columns">
 
@@ -247,21 +247,21 @@ Copy these content to `apple.html`
 
 ---
 
-# Lab 04 - Step 9
+## Lab 04 - Step 9
 You can click the `Published branch` button now. Click and wait for upload.
 
 ![w:650](./images/git6.png)
 
 ---
 
-# Lab 04 - Step 10 Done
+## Lab 04 - Step 10 Done
 If you refresh the pages from the github website and see both `index.html` and `apple.html`, means you are success.
 
 ![w:850](./images/git7.png)
 
 ---
 
-# Lab 04 what have we done? 
+## Lab 04 what have we done? 
 
 - `Set up in Desktop` => `git clone` 
 Clone a project means download a project
@@ -273,15 +273,15 @@ Push mean add those changes to the branch
 
 ---
 
-# Break
+## Break
 
 ---
 
-# Deploy the website to the world
+## Deploy the website to the world
 
 ---
 
-# How can we access to the internet and see website?
+## How can we access to the internet and see website?
 
 - 🖥 Computer?
 - 🖨 IoT devices?
@@ -295,35 +295,35 @@ Push mean add those changes to the branch
 
 ---
 
-# 💻 Server 
+## 💻 Server 
 We need a server for users to get our website / content.
 
 Server will help us to serve the target user regarding their desire data.
 
 ---
 
-# How can we obtain a server
+## How can we obtain a server
 
-### Self hosting ?
-### Cloud hosting (SaaS) ?
+###### Self hosting ?
+###### Cloud hosting (SaaS) ?
 
 ---
 
-# Software as a Service (SaaS)
+## Software as a Service (SaaS)
 >  Is a software licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted. SaaS is also known as "on-demand software" and Web-based/Web-hosted software
 
 Examples: AWS, Azure, GCP, Digital ocean, vercel and more...
 
 ---
 
-# Web hosting with `vercel`
+## Web hosting with `vercel`
 > A web hosting service is a type of Internet hosting service that hosts websites for clients, i.e. it offers the facilities required for them to create and maintain a site and makes it accessible on the World Wide Web. Companies providing web hosting services are sometimes called web hosts.
 
 AKA You can rent a server from cloud provider company.
 
 ---
 
-# Lab 05 - Deploy our Github repo to `vercel`
+## Lab 05 - Deploy our Github repo to `vercel`
 
 > Vercel is the platform for frontend developers, providing the speed and reliability innovators need to create at the moment of inspiration.
 
@@ -331,19 +331,19 @@ In this lab, we will deploy the lab 04 Github repo to `vercel`. (Free)
 
 ---
 
-# Lab 05 - Step 1
+## Lab 05 - Step 1
 Open https://vercel.com/ and click `sign up`. In that pages, click `Continus with GitHub` and process the register.
 
 ---
 
-# Lab 05 - Step 2
+## Lab 05 - Step 2
 If you cna see this page, click top right `Add New..` and select `Project`.
 
 ![w:950](./images/dp1.png)
 
 ---
 
-# Lab 05 - Step 3
+## Lab 05 - Step 3
 Select your repo to click `import`.
 Notices: If you have not grant access to github in `vercel`, grant the access first.
 
@@ -351,14 +351,14 @@ Notices: If you have not grant access to github in `vercel`, grant the access fi
 
 ---
 
-# Lab 05 - Step 4
+## Lab 05 - Step 4
 In this page, just click `Deploy` and wait for the deployment happens.
 
 ![w:950](./images/dp3.png)
 
 ---
 
-# Lab 05 - Step 5
+## Lab 05 - Step 5
 Congratulations, you are success to deploy the website to the world! 
 Click `Continus to Dashboard` and obtain the `DOMAINS` url.
 
@@ -366,14 +366,14 @@ Click `Continus to Dashboard` and obtain the `DOMAINS` url.
 
 ---
 
-# Lab 05 - Step 6
+## Lab 05 - Step 6
 A random `DOMAINS` will be assign to you. And this is the url that your website belongs to. You can share the link to others. Try to click it and share the link to others. 
 
 ![w:950](./images/dp5.png)
 
 ---
 
-# Lab 05 - Step 7 
+## Lab 05 - Step 7 
 Back to your VSC with your project.
 Now, try to add more code to our `index.html`
 
@@ -381,7 +381,7 @@ Add whatever you like, even open a new page is ok
 
 ---
 
-# Lab 05 - Step 8 
+## Lab 05 - Step 8 
 Open a `folder` call `images` and add a image to it.
 
 In  `apple.html`, add a `<img>` tag inside `<body>` and references the images
@@ -394,14 +394,14 @@ In  `apple.html`, add a `<img>` tag inside `<body>` and references the images
 
 ---
 
-# Lab 05 - Step 8 (Cont)
+## Lab 05 - Step 8 (Cont)
 `samples`
 
 ![w:1150](./images/dp6.png)
 
 ---
 
-# Lab 05 - Step 9 
+## Lab 05 - Step 9 
 
 Back to `Github Desktop`, do the same things as `Lab 04 - Step 8`
 
@@ -411,13 +411,13 @@ Back to `Github Desktop`, do the same things as `Lab 04 - Step 8`
 
 ---
 
-# Lab 05 - Step 9 (Cont)
+## Lab 05 - Step 9 (Cont)
 
 ![w:950](./images/dp7.png)
 
 ---
 
-# Lab 05 - Step 10 Done
+## Lab 05 - Step 10 Done
 Back to the `vercel` and open the project, you will see the website is updated.
 
 ![w:950](./images/dp8.png)
@@ -425,28 +425,28 @@ Back to the `vercel` and open the project, you will see the website is updated.
 
 ---
 
-# Lab 05 Focus: Vercal and Github repo
+## Lab 05 Focus: Vercal and Github repo
 Whenever a push occur, vercel will know that your project is updated and re-deploy with the latest version.
 
 ✨ In dept, vercel will apply the auto `CI / CD` with `Github Actions` for the deployment. 
 
 ---
 
-# Break?
+## Break?
 
 ---
 
-# Last but not least - Grouping and planning
+## Last but not least - Grouping and planning
 
 ---
 
-# Project 
+## Project 
 
 2 to 4 student will be in a group, and the following 3 weeks will be the project period. A PWA will be developed and deploy to Vercel for publics to access.
 
 ---
 
-# Project details:
+## Project details:
 
 - **Group members**: 2 to 4 student Free grouping
 - **Period**: 3 weeks (Mostly in lecture time)
@@ -456,7 +456,7 @@ Whenever a push occur, vercel will know that your project is updated and re-depl
 
 ---
 
-# Project details:
+## Project details:
 
 1. Each person should done at least 2 pages
 (2 ppl group = > 4 pages)
@@ -483,20 +483,20 @@ Whenever a push occur, vercel will know that your project is updated and re-depl
 
 ---
 
-# Overview skills to use
+## Overview skills to use
 
-## PWA skills
+#### PWA skills
 - HTML5
 - CSS
 - Javascript
 
-## Deployment / management skills
+#### Deployment / management skills
 - Github / Guthub Desktop (Management)
 - Vercel (Deployment)
 
 ---
 
-# Project details Planning:
+## Project details Planning:
 Here are some tips for your planning:
 
 1. Determine the `Project topic` first
@@ -509,11 +509,11 @@ Here are some tips for your planning:
 
 ---
 
-# Project Group
+## Project Group
 
 Submit your group List to: TBD
 Each group are require to submit it by one person only.
 
 ---
 
-# End
+## End

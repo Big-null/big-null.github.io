@@ -18,7 +18,7 @@ Lecture 05 - Interact JS in HTML
 
 ---
 
-# Menu
+## Menu
 
 - Using JS in html
 - DOM control
@@ -26,7 +26,7 @@ Lecture 05 - Interact JS in HTML
 
 ---
 
-## Recall
+#### Recall
 What we have learn in previous lessons?
 
 ```js
@@ -45,7 +45,7 @@ calculateAgeStatus(16)
 
 ---
 
-## Recall Summary
+#### Recall Summary
  
 - Run a `app.js`
 - Print variables with `console.log`
@@ -59,12 +59,12 @@ calculateAgeStatus(16)
 
 ---
 
-# But
+## But
 What if javascript in HTML?
 
 ---
 
-# Quick test
+## Quick test
 We have a html file for a quick quiz
 How can we know the user input the correct ans?
 
@@ -72,18 +72,18 @@ How can we know the user input the correct ans?
 
 ---
 
-# Using HTML ?
+## Using HTML ?
 Opps, HTML is only for elements
 
-# Using CSS ?
+## Using CSS ?
 Nope. CSS is only for style
 
-# Using Javascript ?
+## Using Javascript ?
 Correct, but why?
 
 ---
 
-# We need Javascript in HTML
+## We need Javascript in HTML
 `Javascript` is the brain in HTML
 It helps to do all the calculate / logics rendering job
 
@@ -91,7 +91,7 @@ Example of: Is something clicked? Calculate the sum of user inputs.
 
 ---
 
-# Add `script` in html
+## Add `script` in html
 
 In html, we would add a `<script>` tag for using javascript.
 
@@ -112,7 +112,7 @@ In html, we would add a `<script>` tag for using javascript.
 
 ---
 
-# Writing script in html
+## Writing script in html
 ```html
 <script> 
       let a = 100;
@@ -134,11 +134,11 @@ Then find the `Console` in the right top sections.
 
 ---
 
-# Control the Dom with `document.querySelector()`
+## Control the Dom with `document.querySelector()`
 
 ---
 
-# Basic Dom control in web js
+## Basic Dom control in web js
 
 Let's assume we have the HTML like this
 
@@ -161,7 +161,7 @@ Let's assume we have the HTML like this
 
 ---
 
-# Get the DOM elements
+## Get the DOM elements
 
 In general, we have these function to get the regarding elements. Both function are build in for web.
 
@@ -173,17 +173,17 @@ const yoloBox = document.getElementsByClassName("yolo"); // Is a array
 
 ```js
 // querySelector
-const msgBoxQu = document.querySelector('#msg'); // Is a id
+const msgBoxQu = document.querySelector('##msg'); // Is a id
 const yoloBoxQu = document.querySelector(".yolo"); // Not a array
 
-// Since msg is a id, so we need to add #
+// Since msg is a id, so we need to add ##
 // Since yolo is a class, so we need to add .
 ```
 Those function can help us to get the regarding elements.
 
 ---
 
-# Add interactions to boxes
+## Add interactions to boxes
 In general, we can add event to the DOM elements:
 
 ```js
@@ -248,7 +248,7 @@ msgBox.addEventListener("click", function() {
 ```
 
 ---
-# Dom value control
+## Dom value control
 You can control the messgae of the elements by `innerHTML` too.
 
 ---
@@ -306,7 +306,7 @@ You can control the messgae of the elements by `innerHTML` too.
 
 ---
 
-# More references on `innerHTML`
+## More references on `innerHTML`
 
 ---
 `counter.html`
@@ -331,11 +331,11 @@ You can control the messgae of the elements by `innerHTML` too.
 
 ---
 
-# Break
+## Break
 
 ---
 
-# Control with input
+## Control with input
 
 In HTML, we have a tag `<input>` which allow user to input stuff
 
@@ -345,7 +345,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
 
 ---
 
-# Control with `<input>`
+## Control with `<input>`
 
 The input tag is used to get the user enter data and send back to server / local checking.
 
@@ -363,7 +363,7 @@ For examples, we use the `<input>` tags like this
 
 ---
 
-# Control with `<input type="???">`
+## Control with `<input type="???">`
 
 Following type are supported
 
@@ -379,7 +379,7 @@ And more ...
 
 ---
 
-# Get `<input>` value
+## Get `<input>` value
 
 To get the input value in javascript, you need to assign a id / calss to an input tag first.
 
@@ -398,7 +398,7 @@ console.log(textInput.value);
 
 ---
 
-# Get `<input>` value when typing
+## Get `<input>` value when typing
 
 To detect the user input event, we have to use `addEventListener` with `input` to listen the type event.
 
@@ -418,7 +418,7 @@ textInput.addEventListener("input", () => {
 
 ---
 
-# Get multi `<input>` value when typing
+## Get multi `<input>` value when typing
 
 To detect different input, assign DIFFERENT id to each `<input >` elements for it.
 
@@ -443,11 +443,11 @@ englishInput.addEventListener("input", () => {
 
 ---
 
-# break
+## break
 
 ---
 
-# Lab 1: Math quiz
+## Lab 1: Math quiz
 
 Write a math quiz site that each time will generate a different math question and answer. And each time will regarding the user input to check if the answer match the sum.
 
@@ -461,7 +461,7 @@ You can references to `quiz.html` for this lab
 Tips 1: Using `Math.floor( Math.random() * 30)` to generate a random integer number.
 
 ---
-# Lab 1: Math quiz Tips 
+## Lab 1: Math quiz Tips 
 
 `tips1.js`
 ```js
@@ -475,7 +475,7 @@ let rngNum = Math.floor( Math.random() * 30) + 1;
 
 ---
 
-# Lab 1.1: Bonus Math quiz
+## Lab 1.1: Bonus Math quiz
 If you are doing quick in lab 1, try to adjust the questions to this:
 
 Questions: 10 + x = 45, find x
@@ -487,4 +487,4 @@ The answer should random too.
 
 ---
 
-# End
+## End

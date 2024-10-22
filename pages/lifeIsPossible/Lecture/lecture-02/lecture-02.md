@@ -18,7 +18,7 @@ Lecture 02 - Introduce to HTML
 
 ---
 
-# Menu
+## Menu
 
 - What and Why of HTML
 - Concepts of HTML
@@ -27,7 +27,7 @@ Lecture 02 - Introduce to HTML
 
 ---
 
-# What is HTML and Why
+## What is HTML and Why
 
 ![w: 1000](https://cdn.unwire.pro/wp-content/uploads/2015/11/hktv-website-screenshot-1.png)
 
@@ -37,19 +37,19 @@ Lecture 02 - Introduce to HTML
 
 ---
 
-# How to build those website?
+## How to build those website?
 
-## Python? C++? Ruby? Java?
+#### Python? C++? Ruby? Java?
 
 ---
 
-# HTML
+## HTML
 
 ![bg w:900](https://play-lh.googleusercontent.com/RslBy1o2NEBYUdRjQtUqLbN-ZM2hpks1mHPMiHMrpAuLqxeBPcFSAjo65nQHbTA53YYn)
 
 ---
 
-# HTML (Hyper Text Markup Language)
+## HTML (Hyper Text Markup Language)
 In brief: 
 * HTML is the standard markup language for creating Web pages
 * HTML describes the structure of a Web page
@@ -59,7 +59,7 @@ In brief:
 
 ---
 
-# Advantages of HTML
+## Advantages of HTML
 
 - ✨ Easy to learn.
 - 💻 Every browser supports HTML Language. (Cross platform)
@@ -68,7 +68,7 @@ In brief:
 
 ---
 
-# Basic structure
+## Basic structure
 
 `index.html`
 ```html
@@ -89,7 +89,7 @@ In brief:
 
 ---
 
-# Minified structure
+## Minified structure
 
 `index.html`
 ```html
@@ -108,12 +108,12 @@ In brief:
 
 ---
 
-# 🏷 Fundamentals Tags 
+## 🏷 Fundamentals Tags 
 Those tags are important to fimilar with
 
 ---
 
-# `<html> </html>`
+## `<html> </html>`
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html
 
 > The `<html>` HTML element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element.
@@ -122,7 +122,7 @@ AKA, to tell the computer that this file is a `HTML` file.
 
 ---
 
-# `<head> </head>`
+## `<head> </head>`
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head
 
 > The `<head>` HTML element contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets.
@@ -131,7 +131,7 @@ AKA, to tell the computer those items are title, scripts, and style sheets.
 
 ---
 
-# `<body> </body>`
+## `<body> </body>`
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body
 
 > The `<body>` HTML element represents the content of an HTML document. There can be only one `<body>` element in a document.
@@ -140,7 +140,7 @@ AKA, to tell the computer those represents the content are between this tag.
 
 ---
 
-# Combinded with
+## Combinded with
 
 `index.html`
 ```html
@@ -160,41 +160,41 @@ AKA, to tell the computer those represents the content are between this tag.
 ```
 
 ---
-# Output
+## Output
 
 ![w:1200](./images/Code_v1wBSiVXBw.png)
 
 ---
 
-# Notices
+## Notices
 1. Several tags are in pairs, but some tags are not.
 e.g. (Pair: `<body>...</body>`, Single `<meta>`)
 See the documents and tutorials to check the usage.
 
 ---
 
-# Break
+## Break
 
 ---
 
-# Basic Tags you need to know
+## Basic Tags you need to know
 
 ---
 
-# 🏷 Basic Tags in body (Container related)
+## 🏷 Basic Tags in body (Container related)
 
-### `<div>` : Basic Box tag
+###### `<div>` : Basic Box tag
 
 <hr>
 
-### `<header>` : Store the web header content
-### `<section>` : Store content regarding each sections
-### `<footer>` : Store the web footer content
+###### `<header>` : Store the web header content
+###### `<section>` : Store content regarding each sections
+###### `<footer>` : Store the web footer content
 
 ---
 
-# Rules 1
-### Usually html tags are in paris
+## Rules 1
+###### Usually html tags are in paris
 ```html
    Opening      End
     <div>      </div>
@@ -208,8 +208,8 @@ See the documents and tutorials to check the usage.
 
 ---
 
-# Rules 2
-### Tags can nested together, as long as your syntax is correct
+## Rules 2
+###### Tags can nested together, as long as your syntax is correct
 
 ```html
 <div>
@@ -261,7 +261,7 @@ Ref: https://www.interviewbit.com/blog/difference-between-html-and-css/
 
 ---
 
-# More common tags in body
+## More common tags in body
 
 * `<h1>–<h6>`: Header text tags to contain string.
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
@@ -307,7 +307,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b
 
 ---
 
-# More common tags in body
+## More common tags in body
 
 * `<img>`: The Image Embed element.
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
@@ -346,7 +346,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
 
 ---
 
-# More common tags in body
+## More common tags in body
 
 * `<ul>`, `<ol>`, `<li>`: unorder list, order list and list item
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul
@@ -355,7 +355,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li
 
 ---
 
-# More common tags in body (Functional)
+## More common tags in body (Functional)
 Will be cover more in later JS lessons
 
 * `<button>`
@@ -365,19 +365,19 @@ Will be cover more in later JS lessons
 
 ---
 
-# More common tags in body
+## More common tags in body
 See here to know what we can use in HTML:
 https://developer.mozilla.org/en-US/docs/Web/HTML/Reference
 
-#### ‼ Remember: Searching google and documents is the key to code. ‼
+######## ‼ Remember: Searching google and documents is the key to code. ‼
 
 ---
 
-# Break and play time
+## Break and play time
 
 ---
 
-# Lab 01 - Try clone me
+## Lab 01 - Try clone me
 Try to code the regarding images with `html` code.
 
 <br>
@@ -388,7 +388,7 @@ Notes: The `😀` is an emoji.
 
 ---
 
-# Lab 02 - Introduce yourself
+## Lab 02 - Introduce yourself
 With the following template, try to intruduce yourself with an html pages. 
 (Either English or Chinese is ok)
 
@@ -409,7 +409,7 @@ With the following template, try to intruduce yourself with an html pages.
 
 --- 
 
-# Lab 02 - Introduce yourself (Cont)
+## Lab 02 - Introduce yourself (Cont)
 You `SHOULD` contain these items in your intro:
 
 * 📃 Name and a short intro to describe yourself
@@ -422,7 +422,7 @@ You `MAY` contain these items in your intro:
 
 --- 
 
-# Lab 02 - Introduce yourself (Cont)
+## Lab 02 - Introduce yourself (Cont)
 After the works, you will have a `30 - 60 seconds` time to present the website to others. Rename the site.html to `<your-name>_l01_lab02.html` e.g. `peter_l01_lab02.html`
 
 You may submit the site to google form in here:
@@ -430,11 +430,11 @@ You may submit the site to google form in here:
 
 ---
 
-# End
+## End
 
 ---
 
-# Extra Readings
+## Extra Readings
 
 - w3school HTML Tutorial
 https://www.w3schools.com/html/

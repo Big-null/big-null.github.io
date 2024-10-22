@@ -18,7 +18,7 @@ Lecture 07 - Project Week 1
 
 ---
 
-# Project details Planning:
+## Project details Planning:
 Here are some tips for your planning:
 
 1. Determine the `Project topic` first
@@ -31,12 +31,12 @@ Here are some tips for your planning:
 
 ---
 
-# Showcase
+## Showcase
 
 ---
 
 
-# Showcase
+## Showcase
 Each group will deploy the PWA in `vercel` and others can be able to access the site.
 
 We will have a presentations section at the last lecture.
@@ -44,7 +44,7 @@ We will have a presentations section at the last lecture.
 Each group will have a 4-8 minutes time to present the PWA to others.
 
 ---
-# Showcase - presentations
+## Showcase - presentations
 
 - **Members**: Suggested all members should attend the presentations
 - **Time**: 4-8 minutes

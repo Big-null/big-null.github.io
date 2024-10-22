@@ -18,7 +18,7 @@ style: |
 
 ---
 
-# 選單
+## 選單
 - HTML的定義和作用
 - HTML的概念
 - 基本的HTML架構
@@ -26,7 +26,7 @@ style: |
 
 ---
 
-# 什麼是HTML，為什麼要使用它?
+## 什麼是HTML，為什麼要使用它?
 
 ![w: 1000](https://cdn.unwire.pro/wp-content/uploads/2015/11/hktv-website-screenshot-1.png)
 
@@ -36,19 +36,19 @@ style: |
 
 ---
 
-# 如何建立網站？
+## 如何建立網站？
 
-## Python? C++? Ruby? Java?
+#### Python? C++? Ruby? Java?
 
 ---
 
-# HTML
+## HTML
 
 ![bg w:900](https://play-lh.googleusercontent.com/RslBy1o2NEBYUdRjQtUqLbN-ZM2hpks1mHPMiHMrpAuLqxeBPcFSAjo65nQHbTA53YYn)
 
 ---
 
-# HTML (Hyper Text Markup Language)
+## HTML (Hyper Text Markup Language)
 (超文字標記語言)
 
 簡而言之：
@@ -61,7 +61,7 @@ style: |
 
 ---
 
-# HTML的優點
+## HTML的優點
 
 - ✨ 容易學習
 - 💻 每個瀏覽器都支持HTML語言（跨平台）
@@ -70,7 +70,7 @@ style: |
 
 ---
 
-# 基本結構
+## 基本結構
 
 `index.html`
 ```html
@@ -91,7 +91,7 @@ style: |
 
 ---
 
-# 簡單結構
+## 簡單結構
 
 `index.html`
 ```html
@@ -110,12 +110,12 @@ style: |
 
 ---
 
-# 🏷 基本標籤
+## 🏷 基本標籤
 這些標籤是很重要的基礎知識
 
 ---
 
-# `<html> </html>`
+## `<html> </html>`
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html
 
 > `<html>` 元素代表HTML文檔的根（頂級元素），因此也被稱為根元素。所有其他元素都必須是此元素的子孫元素。
@@ -124,7 +124,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html
 
 ---
 
-# `<head> </head>`
+## `<head> </head>`
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head
 
 > `<head>`元素包含有關文檔的機器可讀信息（元數據），例如其標題，腳本和樣式表。
@@ -133,7 +133,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head
 
 ---
 
-# `<body> </body>`
+## `<body> </body>`
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body
 
 > `<body>` HTML 元素表示 HTML 文檔的內容。一個文檔中只能有一個 `<body>` 元素。
@@ -161,13 +161,13 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body
 ```
 
 ---
-# 成品
+## 成品
 
 ![w:1200](./images/Code_v1wBSiVXBw.png)
 
 ---
 
-# 注意事項
+## 注意事項
 1. 有些標籤是成對出現的，但有些標籤不是。
 例如：（成對出現：`<body>...</body>`，單獨出現：`<meta>`）
 
@@ -175,28 +175,28 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body
 
 ---
 
-# 休息
+## 休息
 
 ---
 
-# 基本標籤
+## 基本標籤
 
 ---
 
-# 🏷 body 標籤 (與容器相關)
+## 🏷 body 標籤 (與容器相關)
 
-### `<div>` : 基本框盒標籤
+###### `<div>` : 基本框盒標籤
 
 <hr>
 
-### `<header>` : 儲存網頁**頁首**內容
-### `<section>` : 儲存**各個區域**的內容
-### `<footer>` : 儲存網頁**頁尾**內容
+###### `<header>` : 儲存網頁**頁首**內容
+###### `<section>` : 儲存**各個區域**的內容
+###### `<footer>` : 儲存網頁**頁尾**內容
 
 ---
 
-# 規則 1
-### 通常 HTML 標籤是成對出現的
+## 規則 1
+###### 通常 HTML 標籤是成對出現的
 ```html
    開始標籤    結束標籤
     <div>      </div>
@@ -210,8 +210,8 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body
 
 ---
 
-# 規則 2
-### 標籤可以互相嵌套，只要語法正確即可
+## 規則 2
+###### 標籤可以互相嵌套，只要語法正確即可
 
 ```html
 <div>
@@ -263,7 +263,7 @@ Ref: https://www.interviewbit.com/blog/difference-between-html-and-css/
 
 ---
 
-# 主要常用的標籤
+## 主要常用的標籤
 
 * `<h1>–<h6>`: 標題文字標籤，用於包含文字。
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
@@ -309,7 +309,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b
 
 ---
 
-# 主要常用的標籤
+## 主要常用的標籤
 
 * `<img>`: 圖片嵌入元素。
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
@@ -348,7 +348,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
 
 ---
 
-# 主要常用的標籤
+## 主要常用的標籤
 
 * `<ul>`, `<ol>`, `<li>`: 無序清單、有序清單和清單項目。
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul
@@ -357,7 +357,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li
 
 ---
 
-# 主要常用的標籤 (功能性)
+## 主要常用的標籤 (功能性)
 稍後會在 JS 課程中進一步介紹。
 
 * `<button>`
@@ -367,19 +367,19 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li
 
 ---
 
-# 主要常用的標籤
+## 主要常用的標籤
 查看此處以了解我們可以在 HTML 中使用什麼：
 https://developer.mozilla.org/en-US/docs/Web/HTML/Reference
 
-#### ‼ 記住：搜尋 Google 和文件是編碼的關鍵。 ‼
+######## ‼ 記住：搜尋 Google 和文件是編碼的關鍵。 ‼
 
 ---
 
-# 休息時間
+## 休息時間
 
 ---
 
-# Lab 01 - 嘗試複製網站
+## Lab 01 - 嘗試複製網站
 嘗試使用 html 代碼編寫相關圖像。
 
 <br>
@@ -390,7 +390,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Reference
 
 ---
 
-# Lab 02 - 自我介紹
+## Lab 02 - 自我介紹
 使用以下模板，嘗試用 HTML 頁面介紹自己。
 (中英文都可以)
 
@@ -411,7 +411,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Reference
 
 --- 
 
-# Lab 02 - 自我介紹（續）
+## Lab 02 - 自我介紹（續）
 你的網頁**應包含Must**以下內容：
 - 📃 名字和簡短介紹
 - 📚 分享4個喜愛的事物，3個朋友的名字等等
@@ -422,7 +422,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Reference
 
 --- 
 
-# Lab 02 - 自我介紹（續）
+## Lab 02 - 自我介紹（續）
 完成後，你會有30-60秒的時間向其他人展示你的網站。將`site.html`重新命名為 `<your-name>_l01_lab02.html`，例如 `peter_l01_lab02.html` 。
 
 你可以將網站提交到以下google表格中：
@@ -430,11 +430,11 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Reference
 
 ---
 
-# 結束
+## 結束
 
 ---
 
-# 額外閱讀 (English)
+## 額外閱讀 (English)
 
 - w3school HTML教程
 https://www.w3schools.com/html/

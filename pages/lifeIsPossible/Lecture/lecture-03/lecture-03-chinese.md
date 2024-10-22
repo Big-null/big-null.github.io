@@ -24,7 +24,7 @@ style: |
 
 ---
 
-# 選單
+## 選單
 
 - CSS是什麼和為什麼要用CSS
 - CSS的概念
@@ -35,13 +35,13 @@ style: |
 
 ---
 
-# 什麼是CSS和為什麼要用
+## 什麼是CSS和為什麼要用
 
 在您之前的Lab 02 HTML任務中，網站看起來漂亮嗎？
 
 ---
 
-# 這些網站是如何呈現的？
+## 這些網站是如何呈現的？
 
 演示：
 https://81-web.com/
@@ -50,9 +50,9 @@ https://1guu.jp/
 
 ---
 
-# CSS（層疊樣式表）
+## CSS（層疊樣式表）
 
-### 也稱為：CSS可用於非常基本的文檔文本樣式
+###### 也稱為：CSS可用於非常基本的文檔文本樣式
 
 ---
 
@@ -61,13 +61,13 @@ https://1guu.jp/
 
 ---
 
-# HTML和CSS的不同？
+## HTML和CSS的不同？
 
 <div class="columns">
 
 <div>
 
-# HTML
+## HTML
 
 所有內容和文本
 
@@ -76,7 +76,7 @@ https://1guu.jp/
 
 <div>
 
-# CSS
+## CSS
 
 所有樣式和UI的外觀
 
@@ -87,7 +87,7 @@ https://1guu.jp/
 
 ---
 
-# 如何快速展示（內部方法）
+## 如何快速展示（內部方法）
 
 ```html
 <!DOCTYPE html>
@@ -98,7 +98,7 @@ https://1guu.jp/
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #apple {
+        ##apple {
             color: red;
             text-align: center;
         }
@@ -112,7 +112,7 @@ https://1guu.jp/
 
 ---
 
-# 如何快速展示（外部方法）
+## 如何快速展示（外部方法）
 
 <div class="columns">
 
@@ -149,7 +149,7 @@ https://1guu.jp/
 ---
 
 
-# 快速示範如何（內嵌方法）
+## 快速示範如何（內嵌方法）
 
 ```html
 <!DOCTYPE html>
@@ -171,27 +171,27 @@ https://1guu.jp/
 
 ---
 
-# 我們偏好哪種 CSS 方法？
+## 我們偏好哪種 CSS 方法？
 
 <div class="columns-three">
 
 <div>
 
-# 內部 CSS
+## 內部 CSS
 
 半推薦 👍
 </div>
 
 <div>
 
-# 外部 CSS 
+## 外部 CSS 
 
 最推薦 👍👍
 </div>
 
 <div>
 
-# 行內 CSS
+## 行內 CSS
 
 不推薦 🤚
 </div>
@@ -200,7 +200,7 @@ https://1guu.jp/
 
 ---
 
-# 練習課程（5 分鐘）
+## 練習課程（5 分鐘）
 試著在一個文件夾中創建一個 `index.html` 和 `index.css`，然後將這些內容複製到每個文件夾中。
 
 <div class="columns">
@@ -232,7 +232,7 @@ https://1guu.jp/
 `index.css`
 ```css
 .school {
-    color: #FF00FF;
+    color: ##FF00FF;
     text-align: right;
 }
 ```
@@ -241,11 +241,11 @@ https://1guu.jp/
 
 ---
 
-# 短暫休息
+## 短暫休息
 
 ---
 
-# 介紹 `id` 和 `class`
+## 介紹 `id` 和 `class`
 
 像上面的例子，您可能會看到以下代碼：
 
@@ -258,7 +258,7 @@ https://1guu.jp/
 
 ---
 
-# `id` 和 `class`
+## `id` 和 `class`
 
 在一般的介紹中，它說：
 
@@ -268,14 +268,14 @@ https://1guu.jp/
 
 ---
 
-# `id` 和 `class`
+## `id` 和 `class`
 
 即：我們使用 id 和 class 來指向我們想要對其應用某些內容的元素。
 （例如：應用一些樣式、事件、控制相關元素等等）
 
 ---
 
-# `id` 和 `class` 的不同之處
+## `id` 和 `class` 的不同之處
 
 1. `id` 是唯一的標籤，它只能引用一個元素。
 `class` 可以同時應用於許多元素。
@@ -298,7 +298,7 @@ https://1guu.jp/
 
 ---
 
-## 更多正確例子
+#### 更多正確例子
 
 正確 ⭕
 ```html
@@ -333,17 +333,17 @@ https://1guu.jp/
 
 ---
 
-# 休息一下
+## 休息一下
 
 ---
 
-# 如何使用 `id` 和 `class`？
+## 如何使用 `id` 和 `class`？
 
 ---
 
-# `id`
+## `id`
 
-要連結一個 `id`，我們使用 `#` 來表示以下的標籤是一個 `id` 的參考。
+要連結一個 `id`，我們使用 `##` 來表示以下的標籤是一個 `id` 的參考。
 
 <br>
 
@@ -353,12 +353,12 @@ https://1guu.jp/
 
 `index.css`
 ```css
-#apple {
+##apple {
     color: red;
     text-align: center;
 }
 
-#orange {
+##orange {
     color: yellow;
 }
 ```
@@ -376,7 +376,7 @@ https://1guu.jp/
 
 ---
 
-# `class`
+## `class`
 
 要連結一個 `class`，我們在 CSS 中使用 `.` 來表示接下來的標籤是一個 `class` 的引用。
 
@@ -416,7 +416,7 @@ https://1guu.jp/
 
 ---
 
-## CSS 檔案
+#### CSS 檔案
 所有的 CSS 樣式都會被放在一起。
 
 ```css
@@ -429,19 +429,19 @@ https://1guu.jp/
     font-size: 30px
 }
 
-#apple {
+##apple {
     color: red;
     text-align: center;
 }
 
-#orange {
+##orange {
     color: yellow;
 }
 ```
 
 ---
 
-# CSS 可以做什麼？
+## CSS 可以做什麼？
 
 - 📚 顏色樣式
 - 🖼 佈局樣式
@@ -453,7 +453,7 @@ https://1guu.jp/
 
 ---
 
-# CSS 無法做什麼？
+## CSS 無法做什麼？
 
 - 邏輯控制
 - 處理互動事件
@@ -463,18 +463,18 @@ https://1guu.jp/
 
 ---
 
-# CSS 使用
+## CSS 使用
 所有參考在：
 https://www.w3schools.com/css/default.asp
 https://developer.mozilla.org/en-US/docs/Web/CSS/accent-color
 
 ---
 
-# 短暫休息
+## 短暫休息
 
 ---
 
-# CSS 使用注意事項
+## CSS 使用注意事項
 
 1. 有些標籤可能不常用、已廢棄或是相對較新，因此我們無法在短時間內介紹所有標籤。
 
@@ -482,7 +482,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/accent-color
 
 ---
 
-# CSS 使用
+## CSS 使用
 常用文本相關
 
 ```css
@@ -501,11 +501,11 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/text-align
 
 ---
 
-# CSS 使用
+## CSS 使用
 通用的背景顏色和其他樣式
 ```css
 .some-class {
-  background-color: #123F02;
+  background-color: ##123F02;
   text-shadow: 2px 2px;
   box-shadow: 10px 10px;
 }
@@ -513,9 +513,9 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/text-align
 
 ---
 
-# CSS 使用
+## CSS 使用
 
-### 通用佈局實用程序
+###### 通用佈局實用程序
 
 - `margin` (外邊框): https://www.w3schools.com/css/css_margin.asp
 - `padding` (内邊框): https://www.w3schools.com/css/css_padding.asp
@@ -525,9 +525,9 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/text-align
 
 ---
 
-# CSS 使用
+## CSS 使用
 
-### 通用佈局實用程序(更多)
+###### 通用佈局實用程序(更多)
 
 - `position` (位置) : https://www.w3schools.com/css/css_positioning.asp
 - `display` (現出) : https://www.w3schools.com/css/css_display_visibility.asp
@@ -535,9 +535,9 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/text-align
 
 ---
 
-# CSS 使用
+## CSS 使用
 
-### 通用佈局實用程序(更多)
+###### 通用佈局實用程序(更多)
 `display: flex`
 `justify-content: flex-start | flex-end | center | space-between | space-around;`
 `align-items: flex-start | flex-end | center | baseline | stretch;`
@@ -545,30 +545,30 @@ https://www.casper.tw/css/2017/07/21/css-flex/
 
 ---
 
-## `display flex` 演示
+#### `display flex` 演示
 
 https://grid.malven.co/
 
 ---
 
-## `display flex` 練習遊戲
+#### `display flex` 練習遊戲
 
 https://flexboxfroggy.com/
 
 ---
 
-# 休息一下
+## 休息一下
 
 ---
 
-# 介紹 Bulma
+## 介紹 Bulma
 Bulma 是一個免費、開源的框架，提供了現成的前端元件，可以輕鬆地組合來建構響應式網頁介面。
 
 https://bulma.io/documentation/overview/start/
 
 ---
 
-# 為什麼要用 Bulma
+## 為什麼要用 Bulma
 
 - 提供良好的元件可供使用
 - 有好看的介面
@@ -577,7 +577,7 @@ https://bulma.io/documentation/overview/start/
 
 ---
 
-## 在 HTML 中安裝 Bulma
+#### 在 HTML 中安裝 Bulma
 
 ```html
 <!DOCTYPE html>
@@ -605,14 +605,14 @@ https://bulma.io/documentation/overview/start/
 
 ---
 
-## Columns (列)
+#### Columns (列)
 
 - https://bulma.io/documentation/columns/basics/  
 
 
 ---
 
-## Elements (元素)
+#### Elements (元素)
 
 - Button (按鈕): https://bulma.io/documentation/elements/button/  
 - Box (盒子): https://bulma.io/documentation/elements/box/  
@@ -622,7 +622,7 @@ https://bulma.io/documentation/overview/start/
 
 ---
 
-## Components (部件)
+#### Components (部件)
 
 - Navbar (導航欄): https://bulma.io/documentation/components/navbar/    
 - Card (卡片): https://bulma.io/documentation/components/card/    
@@ -631,13 +631,13 @@ https://bulma.io/documentation/overview/start/
 
 ---
 
-# Lab 01 - 裝飾自我介紹頁面
+## Lab 01 - 裝飾自我介紹頁面
 還記得之前在 lecture 02 的 自我介紹 頁面嗎？
 現在，讓我們使用更多的 `CSS` 和 `bulma` 來美化它 ！
 
 ---
 
-# Lab 01 - 裝飾自我介紹頁面
+## Lab 01 - 裝飾自我介紹頁面
 以下是您的頁面應該添加的一些內容：
 
 - 👩‍🎨 文本顏色 和 背景顏色 (`Text Color` and `background color`)
@@ -652,4 +652,4 @@ https://bulma.io/documentation/overview/start/
 
 ---
 
-# 結束
+## 結束

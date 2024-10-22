@@ -18,32 +18,32 @@ Lecture 04 - Introduce to JavaScript
 
 ---
 
-# Menu
+## Menu
 
 - Deep into programming
 - Introduce to real programming with Javascript
 
 ---
 
-# Coding with `logic block`?
+## Coding with `logic block`?
 ![w:850](https://miro.medium.com/max/1400/0*356zWDYXZyGbmQxa.)
 
 ---
 
-# Real programmer dont do this...
+## Real programmer dont do this...
 
 ![w:950](https://i.insider.com/5a823c0ed0307297018b4646?width=1200&format=jpeg)
 
 ---
 
-# Real programmer code with text / words only
+## Real programmer code with text / words only
 
 ![w:850](https://us.knews.media/wp-content/uploads/2022/12/featured-image-code-scrolling-down-a-screen-and-bart-simpson-coding-meme-scaled.jpg)
 
 
 ---
 
-# Programming languages
+## Programming languages
 
 ---
 
@@ -51,7 +51,7 @@ Lecture 04 - Introduce to JavaScript
 
 ---
 
-# Why we learn Javascript?
+## Why we learn Javascript?
 
 - Relative Easy to learn as a beginner
 - Learn once, use everywhere (web / desktop / linux)
@@ -61,7 +61,7 @@ https://www.stackscale.com/blog/most-popular-programming-languages/
 
 
 ---
-# Javascript can run on
+## Javascript can run on
 
 * 🖥 Web browser (V8 engine base)
 * 📱 Android (V8 engine with browser)
@@ -73,7 +73,7 @@ https://www.stackscale.com/blog/most-popular-programming-languages/
 Almost everything you can seen from daily life can run javascript.
 
 ---
-# Write a welcoming program
+## Write a welcoming program
 
 `app.js`
 ```js
@@ -90,11 +90,11 @@ Notices: If you did not install the `nodejs`, install it from https://nodejs.org
 
 ---
 
-# `console.log();`
+## `console.log();`
 
 This is the fundamental function for javascript to print stuff
 
-### Usage
+###### Usage
 ```js
 console.log("Hello world"); // "Hello world"
 console.log("Hello " + "Peter"); // "Hello Peter"
@@ -106,7 +106,7 @@ console.log(100 + 45); // 145
 
 ---
 
-# Javascript menu today
+## Javascript menu today
 
 - Data Types
 - Arithmetic Operators
@@ -118,7 +118,7 @@ console.log(100 + 45); // 145
 
 ---
 
-# JavaScript Comments
+## JavaScript Comments
 > Used to explain codes, and to make it more readable.
 > Codes inside comments will not run / execute / complie
 
@@ -133,7 +133,7 @@ console.log("mate")
 
 ---
 
-# JavaScript Comments
+## JavaScript Comments
 
 Multi-line comments start with `/*` and end with `*/`.
 
@@ -152,7 +152,7 @@ console.log("mate")
 
 ---
 
-# General Data Types in js
+## General Data Types in js
 
 - `string` e.g. `"Hello"`, `"Good day"`, `"I go to school by bus"`
 - `number` e.g. `12`, `-3`, `32.476`, `0x012`, `11010010`
@@ -160,7 +160,7 @@ console.log("mate")
 
 ---
 
-# `string`
+## `string`
 
 The common string / char that we want to shows
 
@@ -170,7 +170,7 @@ The common string / char that we want to shows
 
 ---
 
-# `number`
+## `number`
 
 A data type to represent a number for math computations. ( `+`, `-`, `*`, `/`, `%` )
 
@@ -182,7 +182,7 @@ A data type to represent a number for math computations. ( `+`, `-`, `*`, `/`, `
 
 ---
 
-# `number` Basic Arithmetic Operators
+## `number` Basic Arithmetic Operators
 
 - `+` : Addition (e.g. `3 + 5 = 8`)
 - `-` : Subtraction (e.g. `8 - 2 = 6`)
@@ -191,20 +191,20 @@ A data type to represent a number for math computations. ( `+`, `-`, `*`, `/`, `
 
 ---
 
-# More `number` Arithmetic Operators
+## More `number` Arithmetic Operators
 
-## Commons in general
+#### Commons in general
 - `**` : Exponentiation ( `2^3` => `2**3` )
 - `%` : Modulus / Remainder ( `5 % 2 == 1`, `10 % 2 == 0` )
 
-## Commons in loop 
+#### Commons in loop 
 (will cover more in next lesson)
 - `++` : Increment (`i++`)
 - `--` : Decrement (`i--`)
 
 ---
 
-# `boolean`
+## `boolean`
 
 A data type to determine the **conditions** will happends or not. ONLY `true` and `false` will be appares on this data type.
 
@@ -213,7 +213,7 @@ A data type to determine the **conditions** will happends or not. ONLY `true` an
 
 ---
 
-# `boolean` example
+## `boolean` example
 
 ```js
 13 == 100 // Is 13 equal to 100 ? false
@@ -226,7 +226,7 @@ A data type to determine the **conditions** will happends or not. ONLY `true` an
 
 ---
 
-# `boolean` `and &&`, `or ||`, `not !`
+## `boolean` `and &&`, `or ||`, `not !`
 In all programming languages, several symbo will be represent the logics.
 
 - `and` : Using `&&`
@@ -240,7 +240,7 @@ In all programming languages, several symbo will be represent the logics.
 
 ---
 
-# `boolean` with `and &&`, `or ||`, `not !`
+## `boolean` with `and &&`, `or ||`, `not !`
 
 - `and` : Means **two conditions** are true, then will return true.
 - `or` : Means **either one conditions** is true, then will return true.
@@ -248,7 +248,7 @@ In all programming languages, several symbo will be represent the logics.
 
 ---
 
-# Why `and &&`, `or ||`, `not !`
+## Why `and &&`, `or ||`, `not !`
 Actually this is an simple question or logic sentence in real life.
 
 If we want to represent a conditions in english like this:
@@ -267,7 +267,7 @@ if(today.day == "monday" && today.weather != "raining"){
 
 ---
 
-# Why `and`, `or`, `not`
+## Why `and`, `or`, `not`
 A more complex conditions will be like this:
 
 ```md
@@ -306,13 +306,13 @@ else if(diceNumber % 2 == 1){
 
 ---
 
-# Advance Data Types in js
+## Advance Data Types in js
 
-#### Common (Will cover more on lecture)
+######## Common (Will cover more on lecture)
 - `Object` and `Array`
 - `Null` and `Undefined`
 
-#### Advance (Will NOT cover on lecture, but important for future)
+######## Advance (Will NOT cover on lecture, but important for future)
 - `Error` 
 - `Date`
 - `Map` and `Set`
@@ -320,11 +320,11 @@ else if(diceNumber % 2 == 1){
 
 ---
 
-# Break
+## Break
 
 ---
 
-# Assignment Operators
+## Assignment Operators
 
 <table>
 <tbody>
@@ -382,7 +382,7 @@ else if(diceNumber % 2 == 1){
 
 ---
 
-# Define a variables
+## Define a variables
 
 ```js
 var names = "reemo";
@@ -396,7 +396,7 @@ In most of the case (99.99%), we **DO NOT RECOMMENDED** using `var` due to the l
 
 ---
 
-# Define a variables
+## Define a variables
 
 ```js
 // <declare_words> <declare_variables_name> = <data_values>
@@ -410,7 +410,7 @@ const age = 10;
 
 ---
 
-# `let`
+## `let`
 1. Declare variables with `let` can be re-define
 2. Is block-scope
 
@@ -424,7 +424,7 @@ console.log(names) // tom
 
 ---
 
-# `const`
+## `const`
 1. In commons, declare variables with `const` can NOT be re-define.
 2. Is block-scope
 
@@ -440,7 +440,7 @@ There is exceptions of using `const` in data type like `array` and `object`, but
 
 ---
 
-# Conditional Statements 
+## Conditional Statements 
 
 - Compare: `==`, `===`, `!=`, `!==`
 - For Maths: `>`, `<`, `>=`, `<=`
@@ -448,7 +448,7 @@ There is exceptions of using `const` in data type like `array` and `object`, but
 
 ---
 
-# Compare Statements `==`, `===`, `!=`, `!==`
+## Compare Statements `==`, `===`, `!=`, `!==`
 
 - `==`: Weak Equals to
 - `===`: Strong Equals to
@@ -457,7 +457,7 @@ There is exceptions of using `const` in data type like `array` and `object`, but
 
 ---
 
-# `Strong` compare and `Weak` compare?
+## `Strong` compare and `Weak` compare?
 
 - `Strong` means not only values matches, but the data type need to be match too.
 
@@ -480,7 +480,7 @@ IF you are not sure which compare type to use, always use strong `===` `!==` com
 
 ---
 
-# Maths Compare Statements : `>`, `<`, `>=`, `<=`
+## Maths Compare Statements : `>`, `<`, `>=`, `<=`
 
 - `>`: Bigger than
 - `>=`: Bigger than or equal to
@@ -496,7 +496,7 @@ IF you are not sure which compare type to use, always use strong `===` `!==` com
 
 ---
 
-# Logics Compare Statements: `if` , `else if`, `else`
+## Logics Compare Statements: `if` , `else if`, `else`
 
 Inside code will run if the conditions fullfilled
 
@@ -506,7 +506,7 @@ Inside code will run if the conditions fullfilled
 
 ---
 
-# `if`
+## `if`
 
 `demo.js`
 ```js
@@ -547,7 +547,7 @@ console.log(nums) // 5
 
 ---
 
-# `if` and `else`
+## `if` and `else`
 
 `demo.js`
 ```js
@@ -562,7 +562,7 @@ else{
 
 ---
 
-# `if` and `else`
+## `if` and `else`
 
 `ifElseDemo.js`
 ```js
@@ -581,7 +581,7 @@ console.log(nums) // 43
 
 ---
 
-# `if` and `else`
+## `if` and `else`
 
 `ifElseTwoDemo.js`
 ```js
@@ -599,7 +599,7 @@ console.log(nums) // -5
 
 ---
 
-# Advance `if` and `else` usage
+## Advance `if` and `else` usage
 Following code are not the same
 ```js
 if(true){
@@ -620,7 +620,7 @@ else{
 
 ---
 
-# `if` and `else` and `else if`
+## `if` and `else` and `else if`
 
 `ifElseDemo.js`
 ```js
@@ -641,7 +641,7 @@ else{
 
 ---
 
-# `if` and `else` and `else if`
+## `if` and `else` and `else if`
 
 `ifElseDemo.js`
 ```js
@@ -662,7 +662,7 @@ else{
 
 ---
 
-# `if` and `else` and `else if`
+## `if` and `else` and `else if`
 
 `ifElseDemo.js`
 ```js
@@ -683,11 +683,11 @@ else{
 
 ---
 
-# Functions
+## Functions
 
 ---
 
-# Functions
+## Functions
 function is a block of code designed to perform a particular task.
 
 `basic-function.js`
@@ -702,7 +702,7 @@ myFunctionName() // calling the function
 
 ---
 
-# Functions with params
+## Functions with params
 A function can be pass in params for the purpose of re-use.
 
 `basic-function-params.js`
@@ -718,7 +718,7 @@ greetings("tom") // Hello tom
 
 ---
 
-# Functions with more params
+## Functions with more params
 A function can be pass a lot of params too.
 
 `basic-function-params.js`
@@ -735,7 +735,7 @@ greetings("tom", 33) // Hello tom / Are you the age of 33 ?
 
 ---
 
-# Functions return
+## Functions return
 
 A function can be `return` a values for other variable to use too.
 
@@ -755,7 +755,7 @@ console.log(returnSentences("tom")); // "Hello tom"
 
 ---
 
-# Advance Functions: Arrow Function (Bonus)
+## Advance Functions: Arrow Function (Bonus)
 In javascript, a function can also code like this
 
 ```js
@@ -764,11 +764,11 @@ let myFunction = (a, b) => a * b;
 
 ---
 
-# Break
+## Break
 
 ---
 
-# Lab 01 - Define variables and types
+## Lab 01 - Define variables and types
 
 Peter want's to define some variables but he don't know how to do. Can you help him?
 
@@ -780,7 +780,7 @@ with values `"Peter"` and `"2022-03-06"`.
 
 ---
 
-# Lab 01 - Define variables and types
+## Lab 01 - Define variables and types
 
 `lab02-template.js`
 
@@ -791,7 +791,7 @@ const someStuffAlso = ...
 
 ---
 
-# Lab 02 - Check student stages
+## Lab 02 - Check student stages
 
 Write a program to check the student education stages by the following requirement:
 
@@ -805,7 +805,7 @@ If the student age bigger 23, he / she will be in `Working`
 
 ---
 
-# Lab 02 - Check student stages (Cont)
+## Lab 02 - Check student stages (Cont)
 
 `lab02-template.js`
 ```js
@@ -823,7 +823,7 @@ calculateAgeStatus(21) // University
 ```
 
 ---
-# Summary
+## Summary
 We have learn the: 
 
 - Run a `app.js`
@@ -838,13 +838,13 @@ We have learn the:
 
 ---
 
-# More pratices
+## More pratices
 https://code.tecky.io/
 https://js.checkio.org/
 
 ---
 
-# More materials
+## More materials
 We skipper these concepts in this course
 
 - Object, Array, for loop
@@ -855,4 +855,4 @@ But you can read it by your own if interested in `lecture-ex1`
 
 ---
 
-# End
+## End

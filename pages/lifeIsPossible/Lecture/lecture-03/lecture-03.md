@@ -24,7 +24,7 @@ Lecture 03 - Introduce to CSS and bulma
 
 ---
 
-# Menu
+## Menu
 
 - What and Why of CSS
 - Concepts of CSS
@@ -35,12 +35,12 @@ Lecture 03 - Introduce to CSS and bulma
 
 ---
 
-# What is CSS and Why
+## What is CSS and Why
 Does the website looks beautiful at your previous Lab 02 HTML task?
 
 ---
 
-# How does these website looks? 
+## How does these website looks? 
 Demo: 
 https://81-web.com/
 https://1guu.jp/
@@ -48,9 +48,9 @@ https://1guu.jp/
 
 ---
 
-# CSS (Cascading Style Sheets)
+## CSS (Cascading Style Sheets)
 
-### AKA: CSS can be used for very basic document text styling
+###### AKA: CSS can be used for very basic document text styling
 
 ---
 
@@ -59,13 +59,13 @@ https://1guu.jp/
 
 ---
 
-# What the different of HTML and CSS?
+## What the different of HTML and CSS?
 
 <div class="columns">
 
 <div>
 
-# HTML
+## HTML
 
 All you contents and text
 
@@ -74,7 +74,7 @@ e.g Humans body bones and muscles 💀
 
 <div>
 
-# CSS
+## CSS
 
 All you style and hows the UI look
 
@@ -85,7 +85,7 @@ e.g Humans Skin and hair 🎅
 
 ---
 
-# Quick demo of how (Internal method)
+## Quick demo of how (Internal method)
 
 ```html
 <!DOCTYPE html>
@@ -96,7 +96,7 @@ e.g Humans Skin and hair 🎅
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #apple {
+        ##apple {
             color: red;
             text-align: center;
         }
@@ -110,7 +110,7 @@ e.g Humans Skin and hair 🎅
 
 ---
 
-# Quick demo of how (External method)
+## Quick demo of how (External method)
 
 <div class="columns">
 
@@ -145,7 +145,7 @@ e.g Humans Skin and hair 🎅
 
 ---
 
-# Quick demo of how (Inline method)
+## Quick demo of how (Inline method)
 
 ```html
 <!DOCTYPE html>
@@ -167,27 +167,27 @@ e.g Humans Skin and hair 🎅
 
 ---
 
-# Which CSS method we prefered?
+## Which CSS method we prefered?
 
 <div class="columns-three">
 
 <div>
 
-# Internal CSS
+## Internal CSS
 
 Semi-recommended 👍
 </div>
 
 <div>
 
-# External CSS 
+## External CSS 
 
 Most recommended 👍👍
 </div>
 
 <div>
 
-# Inline CSS
+## Inline CSS
 
 Lessly-recommended 🤚
 </div>
@@ -196,7 +196,7 @@ Lessly-recommended 🤚
 
 ---
 
-# Class exercise (5 mins)
+## Class exercise (5 mins)
 Try to create a `index.html` and `index.css` inside a folder.
 then copy these stuff inside each folder.
 
@@ -229,7 +229,7 @@ then copy these stuff inside each folder.
 `index.css`
 ```css
 .school {
-    color: #FF00FF;
+    color: ##FF00FF;
     text-align: right;
 }
 ```
@@ -238,11 +238,11 @@ then copy these stuff inside each folder.
 
 ---
 
-# Short Break
+## Short Break
 
 ---
 
-# Introduce to `id` and `class`
+## Introduce to `id` and `class`
 
 As the top examples, you may have seen the following code:
 
@@ -254,7 +254,7 @@ So, what is the `id` and `class`?
 
 ---
 
-# `id` and `class`
+## `id` and `class`
 In general introductions, it said:
 
 > The `id` attribute specifies a unique id for an HTML element. The value of the `id` attribute must be unique within the HTML document.
@@ -263,13 +263,13 @@ In general introductions, it said:
 
 ---
 
-# `id` and `class`
-### AKA: We use `id` and `class` to POINT to the elements that we want to apply something in that elements.
+## `id` and `class`
+###### AKA: We use `id` and `class` to POINT to the elements that we want to apply something in that elements.
 (e.g. Apply some style, events, control the regarding elements ...)
 
 ---
 
-# Different of `id` and `class`
+## Different of `id` and `class`
 
 1. `id` is a unique tags, it can only references to ONE element only.
 `class` can be apply to a lot of elements at the same time.
@@ -291,7 +291,7 @@ Wrong ❌ (same id can not be reuse again)
 
 ---
 
-## More correct samples
+#### More correct samples
 
 Correct ⭕
 ```html
@@ -326,17 +326,17 @@ Wrong ❌ (id can not be apply more than one time)
 
 ---
 
-# Short Break
+## Short Break
 
 ---
 
-# How to apply `id` and `class`?
+## How to apply `id` and `class`?
 
 ---
 
-# `id`
+## `id`
 
-To link a `id`, we use `#` to represent the following tag is a `id` references.
+To link a `id`, we use `##` to represent the following tag is a `id` references.
 
 <br>
 
@@ -346,12 +346,12 @@ To link a `id`, we use `#` to represent the following tag is a `id` references.
 
 `index.css`
 ```css
-#apple {
+##apple {
     color: red;
     text-align: center;
 }
 
-#orange {
+##orange {
     color: yellow;
 }
 ```
@@ -369,7 +369,7 @@ To link a `id`, we use `#` to represent the following tag is a `id` references.
 
 ---
 
-# `class`
+## `class`
 
 To link a `class`, we use `.` in css to represent the following tag is a `class` references.
 
@@ -409,7 +409,7 @@ To link a `class`, we use `.` in css to represent the following tag is a `class`
 
 ---
 
-# CSS file
+## CSS file
 All the css style will be put together.
 ```css
 .apple-class {
@@ -421,19 +421,19 @@ All the css style will be put together.
     font-size: 30px
 }
 
-#apple {
+##apple {
     color: red;
     text-align: center;
 }
 
-#orange {
+##orange {
     color: yellow;
 }
 ```
 
 ---
 
-# What can we do with css?
+## What can we do with css?
 
 * Color style
 * Layout style
@@ -445,7 +445,7 @@ All the css style will be put together.
 
 ---
 
-# What css can't do?
+## What css can't do?
 
 * Logics control
 * Handling event for interactions
@@ -455,18 +455,18 @@ These are the functions of `javascript` to do, we will learn `javascript` in the
 
 ---
 
-# CSS utilis
+## CSS utilis
 All references in:
 https://www.w3schools.com/css/default.asp
 https://developer.mozilla.org/en-US/docs/Web/CSS/accent-color
 
 ---
 
-# Break
+## Break
 
 ---
 
-# CSS utilis Notices
+## CSS utilis Notices
 
 1. Some tags are not very common / deprecated / relatively new, hence we can't introduce all tags in a short period.
 
@@ -474,9 +474,9 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/accent-color
 
 ---
 
-# CSS utilis
+## CSS utilis
 
-### Common Text related
+###### Common Text related
 ```css
 .some-class {
   color: blue;
@@ -493,12 +493,12 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/text-align
 
 ---
 
-# CSS utilis
+## CSS utilis
 
-### Common background color and others
+###### Common background color and others
 ```css
 .some-class {
-  background-color: #123F02;
+  background-color: ##123F02;
   text-shadow: 2px 2px;
   box-shadow: 10px 10px;
 }
@@ -506,9 +506,9 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/text-align
 
 ---
 
-# CSS utilis
+## CSS utilis
 
-### Common layout utilis
+###### Common layout utilis
 
 - `margin`: https://www.w3schools.com/css/css_margin.asp
 - `padding`: https://www.w3schools.com/css/css_padding.asp
@@ -518,9 +518,9 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/text-align
 
 ---
 
-# CSS utilis
+## CSS utilis
 
-### Common layout utilis (Advance)
+###### Common layout utilis (Advance)
 
 - `position` : https://www.w3schools.com/css/css_positioning.asp
 - `display` : https://www.w3schools.com/css/css_display_visibility.asp
@@ -528,9 +528,9 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/text-align
 
 ---
 
-# CSS utilis
+## CSS utilis
 
-### Common layout utilis (Important)
+###### Common layout utilis (Important)
 `display: flex`
 `justify-content: flex-start | flex-end | center | space-between | space-around;`
 `align-items: flex-start | flex-end | center | baseline | stretch;`
@@ -538,30 +538,30 @@ https://www.casper.tw/css/2017/07/21/css-flex/
 
 ---
 
-## `display flex` demo
+#### `display flex` demo
 
 https://grid.malven.co/
 
 ---
 
-## `display flex` practice game
+#### `display flex` practice game
 
 https://flexboxfroggy.com/
 
 ---
 
-# Break
+## Break
 
 ---
 
-# Introduce to bulma
+## Introduce to bulma
 > Bulma is a free, open source framework that provides ready-to-use frontend components that you can easily combine to build responsive web interfaces.
 
 https://bulma.io/documentation/overview/start/
 
 ---
 
-# Why bulma
+## Why bulma
 
 - Builded decent components to use
 - Decent UI
@@ -569,7 +569,7 @@ https://bulma.io/documentation/overview/start/
 - Write less CSS
 
 ---
-## Install in HTML
+#### Install in HTML
 
 ```html
 <!DOCTYPE html>
@@ -597,14 +597,14 @@ https://bulma.io/documentation/overview/start/
 
 ---
 
-## Columns
+#### Columns
 
 - https://bulma.io/documentation/columns/basics/  
 
 
 ---
 
-## Elements
+#### Elements
 
 - Button: https://bulma.io/documentation/elements/button/  
 - Box: https://bulma.io/documentation/elements/box/  
@@ -614,7 +614,7 @@ And more: https://bulma.io/documentation/elements/
 
 ---
 
-## Components
+#### Components
 
 - Navbar: https://bulma.io/documentation/components/navbar/    
 - Card: https://bulma.io/documentation/components/card/    
@@ -623,13 +623,13 @@ And more: https://bulma.io/documentation/components/
 
 ---
 
-# Lab 01 - Enhance the Introduce yourself
+## Lab 01 - Enhance the Introduce yourself
 Remember the previous `Introduce yourself` page from `lecture 02`?
 Let's create more CSS and bulma to decorate it!
 
 ---
 
-# Lab 01 - Enhance the Introduce yourself
+## Lab 01 - Enhance the Introduce yourself
 Something that you **Should** add to your pages
 - `Text Color` and `background color`
 - `Font size`, `text align`
@@ -643,4 +643,4 @@ Something that you **Can** add to your pages
 
 ---
 
-# End
+## End

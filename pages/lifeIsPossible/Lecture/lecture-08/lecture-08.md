@@ -18,6 +18,8 @@ Lecture 08 - Project Week 2
 
 ---
 
+## Project day
+Please keep working on your projects.
 
-# Enjoy
+## Enjoy
 

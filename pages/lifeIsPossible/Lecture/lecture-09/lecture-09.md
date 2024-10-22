@@ -18,7 +18,7 @@ Lecture 09 - Project Week 3
 
 ---
 
-# Bonus Menu (20 mins short talk)
+## Bonus Menu (20 mins short talk)
 
 - AOS - Animate on scroll library
 - Animate.css
@@ -26,14 +26,14 @@ Lecture 09 - Project Week 3
 
 ---
 
-# AOS - Animate on scroll library 
+## AOS - Animate on scroll library 
 https://michalsnik.github.io/aos/
 
 > Animate On Scroll Library, helps to add scroll in animations in html
 
 ---
 
-# Install
+## Install
 
 ```html
 <!DOCTYPE html>
@@ -57,7 +57,7 @@ https://michalsnik.github.io/aos/
 
 ---
 
-# Usage
+## Usage
 
 In brief, choose the effect that you want in the animations, then add the `data-aos="????"` in regarding DOM elements.
 
@@ -71,14 +71,14 @@ See https://michalsnik.github.io/aos/ for more references.
 
 ---
 
-# Animate.css
+## Animate.css
 https://animate.style/
 
 > Animate.css is a library of ready-to-use, cross-browser animations for use in your web projects. Great for emphasis, home pages, sliders, and attention-guiding hints.
 
 ---
 
-# Install
+## Install
 
 ```html
 <!DOCTYPE html>
@@ -103,7 +103,7 @@ https://animate.style/
 
 ---
 
-# Usage
+## Usage
 
 Select the animate you like in the https://animate.style/ 
 Then add the string in the regarding DOM elements.
@@ -122,14 +122,14 @@ Hello mate
 
 ---
 
-# sweetalert2
+## sweetalert2
 https://sweetalert2.github.io/  
 
 > A beautiful, responsive, customizable, accessible (WAI-ARIA) replacement for JavaScript's popup boxes
 
 ---
 
-# Install
+## Install
 
 ```html
 <!DOCTYPE html>
@@ -147,7 +147,7 @@ https://sweetalert2.github.io/
 
 ---
 
-# Usage
+## Usage
 sweetalert2 is a javascript driven library, when you call the regarding functions, it will pop up a alert box.
 
 ```html
@@ -158,7 +158,7 @@ sweetalert2 is a javascript driven library, when you call the regarding function
 
 ---
 
-# More Usage
+## More Usage
 You can combo the html and js to control when the alter box pop up.
 
 ```html
@@ -176,5 +176,5 @@ You can combo the html and js to control when the alter box pop up.
 
 ---
 
-# Enjoy
+## Enjoy
 

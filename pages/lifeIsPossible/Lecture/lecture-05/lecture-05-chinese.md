@@ -18,7 +18,7 @@ style: |
 
 ---
 
-# 目錄
+## 目錄
 
 - 在 HTML 中使用 JS
 - DOM 控制
@@ -26,7 +26,7 @@ style: |
 
 ---
 
-## 回顧
+#### 回顧
 我們在之前的課程中學到了什麼？
 
 ```js
@@ -45,7 +45,7 @@ calculateAgeStatus(16)
 
 ---
 
-## 回顧總結
+#### 回顧總結
  
 - 執行 `app.js`
 - 用 `console.log` 輸出變量
@@ -59,30 +59,30 @@ calculateAgeStatus(16)
 
 ---
 
-# 但是
+## 但是
 如果 JavaScript 放在 HTML 中呢？
 
 ---
 
-# 快速測試
+## 快速測試
 我們有一個 HTML 文件作為快速小測驗，我們該如何知道使用者輸入了正確的答案？
 
 ![bg right w:640](./images/quiz-template1.png)
 
 ---
 
-# 使用 HTML ?
+## 使用 HTML ?
 糟糕了，HTML 只用於定義元素。
 
-# 使用 CSS ?
+## 使用 CSS ?
 不行。CSS 只用於樣式。
 
-# 使用 Javascript ?
+## 使用 Javascript ?
 對，但為什麼？
 
 ---
 
-# 我們需要在 HTML 中使用 JavaScript
+## 我們需要在 HTML 中使用 JavaScript
 
 `JavaScript` 是 HTML 中的大腦，它幫助執行所有計算/邏輯渲染工作。
 
@@ -90,7 +90,7 @@ calculateAgeStatus(16)
 
 ---
 
-# 在 HTML 中加入 `script`
+## 在 HTML 中加入 `script`
 
 在 HTML 中，我們可以添加 `<script>` 標籤來使用 JavaScript。
 
@@ -111,7 +111,7 @@ calculateAgeStatus(16)
 
 ---
 
-# 在 HTML 中加入 `script`
+## 在 HTML 中加入 `script`
 ```html
 <script> 
       let a = 100;
@@ -131,11 +131,11 @@ calculateAgeStatus(16)
 
 ---
 
-# 使用  `document.querySelector()` 控制網頁元素
+## 使用  `document.querySelector()` 控制網頁元素
 
 ---
 
-# Web JS 的基本網頁元素控制
+## Web JS 的基本網頁元素控制
 
 讓我們假設有以下的 HTML：
 
@@ -158,7 +158,7 @@ calculateAgeStatus(16)
 
 ---
 
-# 取得 DOM 元素
+## 取得 DOM 元素
 
 一般來說，我們有以下兩個方法可以取得相對應的元素，兩個方法都是網頁內建的。
 
@@ -170,10 +170,10 @@ const yoloBox = document.getElementsByClassName("yolo"); // Is a array
 
 ```js
 // querySelector
-const msgBoxQu = document.querySelector('#msg'); // Is a id
+const msgBoxQu = document.querySelector('##msg'); // Is a id
 const yoloBoxQu = document.querySelector(".yolo"); // Not a array
 
-// 因為 msg 是一個 id，所以我們需要加上 #
+// 因為 msg 是一個 id，所以我們需要加上 ##
 // 因為 yolo 是一個 class，所以我們需要加上 .
 ```
 
@@ -182,7 +182,7 @@ const yoloBoxQu = document.querySelector(".yolo"); // Not a array
 
 ---
 
-# 將互動加入到框框裡
+## 將互動加入到框框裡
 一般來說，我們可以在 DOM 元素中加入事件：
 
 ```js
@@ -247,7 +247,7 @@ msgBox.addEventListener("click", function() {
 ```
 
 ---
-# DOM值控制
+## DOM值控制
 您也可以通過 `innerHTML` 控制元素的消息。
 
 ---
@@ -305,7 +305,7 @@ msgBox.addEventListener("click", function() {
 
 ---
 
-# 更多 `innerHTML` 參考資料
+## 更多 `innerHTML` 參考資料
 
 ---
 `counter.html`
@@ -330,11 +330,11 @@ msgBox.addEventListener("click", function() {
 
 ---
 
-# 休息一下
+## 休息一下
 
 ---
 
-# 控制輸入
+## 控制輸入
 
 在 HTML 中，我們有一個標籤 `<input>`，允許用戶輸入內容。
 
@@ -346,7 +346,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
 
 ---
 
-# 用 `<input>` 控制
+## 用 `<input>` 控制
 
 `<input>` 標籤用於獲取用戶輸入的數據，並將其發送回服務器/本地進行檢查。
 
@@ -364,7 +364,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
 
 ---
 
-# 用 `<input type="???">` 控制
+## 用 `<input type="???">` 控制
 
 支持以下類型：
 
@@ -380,7 +380,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
 
 ---
 
-# 取得 `<input>` 值
+## 取得 `<input>` 值
 
 在 JavaScript 中要取得 `<input>` 的值，必須先給予它一個 id 或 class。
 
@@ -399,7 +399,7 @@ console.log(textInput.value);
 
 ---
 
-# 當使用者輸入時取得 `<input>` 值
+## 當使用者輸入時取得 `<input>` 值
 
 為了偵測使用者的輸入事件，我們可以使用 `addEventListener` 與 `input` 事件來聆聽輸入事件。
 
@@ -419,7 +419,7 @@ textInput.addEventListener("input", () => {
 
 ---
 
-# 當使用者輸入時取得多個 `<input>` 值
+## 當使用者輸入時取得多個 `<input>` 值
 
 如果要取得多個不同的 `<input>`，必須為每個 `<input>` 元素分別指定不同的 id。
 
@@ -444,11 +444,11 @@ englishInput.addEventListener("input", () => {
 
 ---
 
-# 休息一下
+## 休息一下
 
 ---
 
-# Lab 1: 數學測驗
+## Lab 1: 數學測驗
 
 撰寫一個數學測驗的網站，每次會產生不同的數學題目及答案，並依據使用者輸入來檢查答案是否正確。
 
@@ -462,7 +462,7 @@ englishInput.addEventListener("input", () => {
 提示 1: 使用 `Math.floor(Math.random() * 30)` 產生一個隨機整數。
 
 ---
-# Lab 1: 數學測驗提示
+## Lab 1: 數學測驗提示
 
 `tips1.js`
 ```js
@@ -476,7 +476,7 @@ let rngNum = Math.floor( Math.random() * 30) + 1;
 
 ---
 
-# Lab 1.1: 加強版數學測驗
+## Lab 1.1: 加強版數學測驗
 如果您已經完成了練習 1，請嘗試調整題目為：
 
 - 問題: 10 + x = 45，找出 x 的值
@@ -486,4 +486,4 @@ let rngNum = Math.floor( Math.random() * 30) + 1;
 
 ---
 
-# 結束
+## 結束
