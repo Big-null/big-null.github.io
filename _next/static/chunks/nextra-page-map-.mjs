@@ -215,6 +215,61 @@ export const pageMap = [{
           "sidebarTitle": "Lecture 07"
         }
       }]
+    }, {
+      name: "lecture-08",
+      route: "/lifeIsPossible/Lecture/lecture-08",
+      children: [{
+        name: "lecture-08",
+        route: "/lifeIsPossible/Lecture/lecture-08/lecture-08",
+        frontMatter: {
+          "marp": true,
+          "class": "invert",
+          "footer": "Life is Possible - Apps workshop",
+          "paginate": true,
+          "style": ".columns {\n  display: grid;\n  grid-template-columns: repeat(2, minmax(0, 1fr));\n  gap: 1rem;\n}\n",
+          "sidebarTitle": "Lecture 08"
+        }
+      }]
+    }, {
+      name: "lecture-09",
+      route: "/lifeIsPossible/Lecture/lecture-09",
+      children: [{
+        name: "lecture-09",
+        route: "/lifeIsPossible/Lecture/lecture-09/lecture-09",
+        frontMatter: {
+          "marp": true,
+          "class": "invert",
+          "footer": "Life is Possible - Apps workshop",
+          "paginate": true,
+          "style": ".columns {\n  display: grid;\n  grid-template-columns: repeat(2, minmax(0, 1fr));\n  gap: 1rem;\n}\n",
+          "sidebarTitle": "Lecture 09"
+        }
+      }]
+    }, {
+      name: "lecture-10",
+      route: "/lifeIsPossible/Lecture/lecture-10",
+      children: [{
+        name: "lecture-10",
+        route: "/lifeIsPossible/Lecture/lecture-10/lecture-10",
+        frontMatter: {
+          "marp": true,
+          "class": "invert",
+          "footer": "Life is Possible - Apps workshop",
+          "paginate": true,
+          "style": ".columns {\n  display: grid;\n  grid-template-columns: repeat(2, minmax(0, 1fr));\n  gap: 1rem;\n}\n",
+          "sidebarTitle": "Lecture 10"
+        }
+      }]
+    }, {
+      name: "lecture-ex1",
+      route: "/lifeIsPossible/Lecture/lecture-ex1",
+      children: [{
+        name: "lecture-ex1",
+        route: "/lifeIsPossible/Lecture/lecture-ex1/lecture-ex1",
+        frontMatter: {
+          "sidebarTitle": "Lecture Ex1"
+        }
+      }]
     }]
   }, {
     name: "overall-chinese",
