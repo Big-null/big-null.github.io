@@ -1,3 +1,8 @@
+---
+title: Lecture 1 - Introduce to Programming | Life is Possible - 生命教育 手機程式工作坊
+sidebarTitle: Lecture 01
+description: Introduce to Programming | Life is Possible - 生命教育 手機程式工作坊
+---
 
 # Life is Possible - 生命教育 手機程式工作坊
 

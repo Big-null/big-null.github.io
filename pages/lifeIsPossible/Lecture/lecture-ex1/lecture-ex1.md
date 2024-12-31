@@ -1,3 +1,10 @@
+---
+title: Lecture ex1 - Advance JS | Life is Possible - 生命教育 手機程式工作坊
+sidebarTitle: Lecture ex1
+description: Advance JS | Life is Possible - 生命教育 手機程式工作坊
+---
+
+
 # Life is Possible - 生命教育 手機程式工作坊
 
 Lecture ex1 - Advance JS
